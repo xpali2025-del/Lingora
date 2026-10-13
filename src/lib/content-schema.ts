@@ -5,6 +5,8 @@ const KeywordResearchSchema = z.object({
   primaryKeyword: z.string().min(1),
   shortTail: z.array(z.string().min(1)),
   longTail: z.array(z.string().min(1)),
+  synonyms: z.array(z.string().min(1)).optional(),
+  semanticTerms: z.array(z.string().min(1)).optional(),
   volume: z.number().nonnegative().nullable(),
   difficulty: z.number().min(0).max(100).nullable(),
   searchConsole: z.object({

@@ -74,3 +74,10 @@
 4. إضافة JSON-LD وOG وhreflang لكل زوج AR/EN عند فتح الفهرسة، وتحديث sitemap (S5).
 5. كتابة محتوى حقيقي (من مصادر المالك/القانونية) للصفحات الرقيقة دون حشو؛ إضافة صفحات معرفية فريدة (S3,S9).
 6. توثيق هوية الكيان وادعاءات المنتج قبل الفهرسة (S6,S8).
+
+### تنفيذ خطوة 2 (مرادفات) — تم
+- `src/lib/content-schema.ts`: حقلان اختياريان `keywordResearch.synonyms` و`semanticTerms`.
+- `content/{ar,en}/*.json`: ملؤهما للصفحات الـ14 المنشورة كمسودة (4–5 مرادفات و4–9 مصطلحات دلالية لكل صفحة؛ مقترحات editorial غير مدعومة ببيانات بحث). صفحات الأسواق الـ12 لم تُمس.
+- `scripts/check-content-quality.mjs`: يفشل إن قلّ المرادفات/المصطلحات عن 3 أو تكرر متغير مع الـ primary.
+- `public/admin/config.yml`: حقلا CMS جديدان. `scripts/export-seo-workbook.py`: صفّا Synonym وSemantic term (لم يُشغَّل لإعادة توليد xlsx).
+- تنبيه: لا تشغّل `prettier --write` قبل إضافة `.prettierrc` (singleQuote) وإلا تتغير علامات الاقتباس في كل الملفات.

@@ -61,6 +61,18 @@ collections:
           - { label: Short-tail keywords, name: shortTail, widget: list }
           - { label: Long-tail keywords, name: longTail, widget: list }
           - {
+              label: Synonyms and spelling variants,
+              name: synonyms,
+              widget: list,
+              required: false,
+            }
+          - {
+              label: Semantic terms,
+              name: semanticTerms,
+              widget: list,
+              required: false,
+            }
+          - {
               label: Monthly volume,
               name: volume,
               widget: number,

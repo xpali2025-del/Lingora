@@ -18,6 +18,19 @@
       "what happens if a paid order has no link",
       "how to request order support from Lingora"
     ],
+    "synonyms": [
+      "Lingora refund",
+      "Lingora cancellation policy",
+      "Lingora refund request",
+      "Lingora return policy"
+    ],
+    "semanticTerms": [
+      "cancellation",
+      "failed redemption",
+      "refund window",
+      "support response",
+      "refund eligibility"
+    ],
     "volume": null,
     "difficulty": null,
     "searchConsole": {
