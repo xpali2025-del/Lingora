@@ -1,0 +1,78 @@
+{
+  "locale": "ar",
+  "route": "/about/",
+  "pageType": "about",
+  "status": "OWNER-APPROVED BRAND COPY — indexable About page",
+  "indexable": true,
+  "targetWords": 200,
+  "keywordResearch": {
+    "status": "PROPOSED — intent-separated editorial seed; no volume/difficulty supplied",
+    "primaryKeyword": "عن Lingora",
+    "shortTail": ["عن Lingora", "هدف Lingora", "التواصل مع Lingora"],
+    "longTail": [
+      "ما هدف Lingora ورؤيتها",
+      "ما خيارات Duolingo Super التي تقدمها Lingora",
+      "كيف أتواصل مع Lingora"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Owner-confirmed brand/product/contact details and owner-directed mission/vision copy; no volume or Search Console export supplied."
+  },
+  "h1": "عن Lingora",
+  "intro": "Lingora موقع يوضح خيارات اشتراك Duolingo Super الفردية والعائلية. نعمل على تقديم المعلومات بعبارات مباشرة تساعد المهتم على فهم ما يشمله العرض قبل اتخاذ القرار. نركز على Super فقط، ونوضح أن Duolingo Max ليس ضمن الخدمات التي تقدمها Lingora.",
+  "sections": [
+    {
+      "heading": "هدفنا",
+      "paragraphs": [
+        "هدف Lingora أن يجعل العثور على معلومات خيار Super أسهل وأكثر وضوحاً. نوضح إن كان العرض فردياً أو عائلياً، ونذكر التفاصيل التي أكدها المالك بدلاً من ترك الزائر يستنتجها من اسم مختصر أو صورة. ومن المعلومات التي نوضحها أن الخيار العائلي لا يشمله الخصم.",
+        "نحرص على أن تجيب كل صفحة عن سؤال محدد. صفحة الاشتراك تتناول خيارات Super، وصفحة طرق الدفع تجمع الخيارات التي زودنا بها المالك مع تنبيه واضح إلى أن استقبال الأموال لم يُختبر بشكل مستقل. لا نعرض ذلك كدليل على أن الدفع الآلي أو التسليم مفعّل."
+      ]
+    },
+    {
+      "heading": "رؤيتنا",
+      "paragraphs": [
+        "رؤيتنا أن تكون معلومات الاشتراك أوضح للناطقين بالعربية والإنجليزية. لذلك نعمل على كتابة محتوى سهل القراءة باللغتين، وربط القارئ بالصفحة التي تشرح سؤاله بدلاً من تكرار النص نفسه في صفحات كثيرة.",
+        "نطمح إلى أن يستطيع القارئ تمييز نوع الخيار وما يحتاج إلى التحقق منه قبل اتخاذ قراره. وعندما تتوفر معلومات موثوقة أو تتغير التفاصيل، ينبغي تحديث الصفحة المرتبطة بها حتى تبقى النسختان العربية والإنجليزية متسقتين."
+      ]
+    },
+    {
+      "heading": "لماذا Lingora؟",
+      "paragraphs": [
+        "نركز على نطاق واضح: Duolingo Super بخيار فردي أو عائلي. الخيار العائلي لا يشمله الخصم، وDuolingo Max منتج مختلف لا تقدمه Lingora. يرد اسم Max فقط لتوضيح هذا الفرق، وليس كخيار متاح لدينا.",
+        "الموقع متاح بالعربية والإنجليزية، ونحرص على ذكر المعلومات التي أكدها المالك بوضوح بدلاً من المبالغة في وصف المزايا أو التوفر. لا نزعم وجود شراكة رسمية مع Duolingo أو تشغيل دفع آلي؛ يجب مراجعة السعر والتوفر وخطوات الاستخدام في صفحة العرض قبل الاعتماد عليها."
+      ]
+    },
+    {
+      "heading": "تواصل معنا",
+      "paragraphs": [
+        "للتواصل العام مع Lingora: الهاتف +966554751363، والبريد info@lingora.com. للاستفسارات المتعلقة بالمبيعات استخدم sales@lingora.com. لا ترسل كلمات مرور أو رموز تحقق عبر البريد أو الهاتف."
+      ]
+    }
+  ],
+  "faqs": [],
+  "publishBlockers": [],
+  "slug": "about",
+  "intentType": "brand-investigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Owner-confirmed: Lingora offers individual and Family Duolingo Super, the Family option is not discounted, Max is not offered, and the phone and public email addresses are provided by the owner. Brand mission/vision copy is editorial positioning requested by the owner; it makes no claim of official affiliation or guaranteed fulfillment.",
+  "sourcesChecked": [
+    "Owner confirmation in chat, 2026-10-13 (Super options, discount, Max availability, phone, and email).",
+    "Owner-directed editorial copy for Lingora purpose, vision, and reasons to choose Lingora, 2026-10-13."
+  ],
+  "title": "عن Lingora: هدفنا ورؤيتنا وطرق التواصل | Lingora",
+  "description": "اكتشف هدف Lingora ورؤيتها وخيارات Duolingo Super التي توضحها، ولماذا تميز بين الفردي والعائلي وDuolingo Max، وطرق التواصل.",
+  "searchIntent": {
+    "stage": "brand-investigation",
+    "userNeed": "أريد معرفة هدف Lingora ورؤيتها وخياراتها وقنوات التواصل معها.",
+    "pageJob": "عرض نبذة موجزة عن الهدف والرؤية ونطاق العرض وطرق التواصل دون ادعاءات اعتماد أو نتائج غير مثبتة.",
+    "distinctFrom": "تشرح هوية Lingora العامة؛ صفحة الاشتراك وحدها تعرض شروط الخيار، وصفحة الدفع وحدها تسرد وسائل الدفع.",
+    "researchStatus": "source-backed"
+  },
+  "publicationState": "draft"
+}

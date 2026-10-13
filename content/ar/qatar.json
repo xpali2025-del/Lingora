@@ -1,0 +1,72 @@
+{
+  "locale": "ar",
+  "route": "/qatar/",
+  "pageType": "market-hub",
+  "status": "RESEARCH ONLY — excluded from public routes pending distinct local evidence",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "RESEARCH ONLY — candidate query, not an active page owner; no tool metrics",
+    "primaryKeyword": "Duolingo Super قطر",
+    "shortTail": ["Duolingo Super قطر", "اشتراك دولينجو قطر"],
+    "longTail": [
+      "طريقة التحقق من رابط Duolingo Super في قطر",
+      "معلومات رابط Duolingo Super لمدة 12 شهرًا في قطر"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Search-intent hypothesis only. Requires local-source evidence and real keyword-tool data before reactivation."
+  },
+  "h1": "Duolingo Super قطر: تحقق من المعلومات",
+  "intro": "تجمع هذه الصفحة أسئلة تحضيرية لمن يبحث من قطر عن رابط استبدال، مع الفصل بين الشرح العام والمعلومات المحلية التي تحتاج إلى توثيق.",
+  "sections": [
+    {
+      "heading": "راجع المصدر قبل التفاصيل",
+      "paragraphs": [
+        "اطلب أن تكون مدة الرابط وشروط الاستخدام وطريقة الاستلام مكتوبة بوضوح. اقرأها قبل أي خطوة، ولا تعتبر اسم السوق وحده ضمانًا لصلاحية عرض معين."
+      ]
+    },
+    {
+      "heading": "اجعل الدعم جزءًا من المقارنة",
+      "paragraphs": [
+        "وجود طريقة واضحة للتواصل عند وجود سؤال مهم للمشتري. ينبغي تحديد قناة الدعم ووقت الاستجابة الفعلي من المالك قبل نشرهما في الصفحة، وعدم اختراع ضمانات غير معتمدة."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "ما طرق الدفع المتاحة في قطر؟",
+      "answer": "لم تتوفر بيانات تحقق عن طرق الدفع في قطر؛ ستضاف فقط بعد تأكيدها."
+    }
+  ],
+  "publishBlockers": [
+    "TO RESEARCH: unique, verified local context required before release.",
+    "لا توجد ادعاءات عن طرق الدفع أو الأسعار المحلية.",
+    "لا يُصدّر المسار العام حتى تتوفر معلومة محلية فريدة بمصدر وتاريخ مراجعة.",
+    "لا تنشئ صفحة دولة بتبديل اسم البلد أو تكرار قائمة التحقق؛ ادمجها ما لم تضف قيمة محلية.",
+    "أسعار ووسائل الدفع والضرائب والدعم القانوني في هذا السوق غير موثقة."
+  ],
+  "slug": "qatar",
+  "intentType": "local-commercial-investigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Duolingo Super قطر: أسئلة ينبغي مراجعتها | Lingora",
+  "description": "مسودة لصفحة قطر تركز على فحص وصف الرابط ومدته؛ لم يتم تأكيد طرق الدفع أو شروط السوق المحلي. تخضع هذه المسودة لمراجعة المصادر قبل النشر.",
+  "publicationState": "research-only",
+  "searchIntent": {
+    "stage": "local-commercial-investigation",
+    "userNeed": "يريد الباحث في قطر التحقق من السعر والتسليم والدفع والشروط المحلية الفعلية قبل اتخاذ قرار.",
+    "pageJob": "لا تُنشر هذه الصفحة أو تُصدّر حتى يتوفر دليل محلي فريد ومؤرخ، وإجابة فعلية مختلفة عن بقية الأسواق.",
+    "distinctFrom": "لا تستبدل اسم الدولة في نص عام؛ يجب أن تضيف معلومة محلية موثقة واستخدامًا محليًا مفيدًا أو تُدمج في صفحة إقليمية واحدة.",
+    "researchStatus": "blocked"
+  }
+}

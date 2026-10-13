@@ -1,0 +1,72 @@
+{
+  "locale": "ar",
+  "route": "/uae/",
+  "pageType": "market-hub",
+  "status": "RESEARCH ONLY — excluded from public routes pending distinct local evidence",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "RESEARCH ONLY — candidate query, not an active page owner; no tool metrics",
+    "primaryKeyword": "Duolingo Super الإمارات",
+    "shortTail": ["Duolingo Super الإمارات", "اشتراك دولينجو الإمارات"],
+    "longTail": [
+      "رابط Duolingo Super لمدة سنة في الإمارات",
+      "أسئلة قبل اختيار رابط Duolingo Super في الإمارات"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Search-intent hypothesis only. Requires local-source evidence and real keyword-tool data before reactivation."
+  },
+  "h1": "Duolingo Super الإمارات: أسئلة قبل الاختيار",
+  "intro": "تساعد هذه المسودة القارئ في الإمارات على تنظيم الأسئلة التي يراجعها قبل الاعتماد على عرض رقمي، من غير افتراض أن سوقًا أو وسيلة دفع بعينها متاحة.",
+  "sections": [
+    {
+      "heading": "ابدأ بمراجعة الوصف والمدة",
+      "paragraphs": [
+        "افحص المدة المكتوبة ومصدر الرابط والشروط المرتبطة به. ينبغي أن يكون كل عنصر أساسي ظاهرًا قبل الطلب، وأن تتطابق تفاصيل الصفحة مع ما يعرضه البائع في المسار الفعلي."
+      ]
+    },
+    {
+      "heading": "افصل بين المعلومة المؤكدة والتوقع",
+      "paragraphs": [
+        "قد تختلف متطلبات المشتري من شخص إلى آخر. لا تخلط بين وجود صفحة مخصصة للإمارات وبين إثبات وسيلة دفع أو سعر محلي؛ هذه النقاط معلقة إلى حين مراجعتها بمصدر موثوق."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "هل تم توثيق خيارات الدفع داخل الإمارات؟",
+      "answer": "لم تُرفق بيانات موثوقة عن وسائل الدفع؛ ستظل الإجابة معلقة حتى التحقق."
+    }
+  ],
+  "publishBlockers": [
+    "TO RESEARCH: unique, verified local context required before release.",
+    "لا توجد ادعاءات عن طرق الدفع أو الأسعار المحلية.",
+    "لا يُصدّر المسار العام حتى تتوفر معلومة محلية فريدة بمصدر وتاريخ مراجعة.",
+    "لا تنشئ صفحة دولة بتبديل اسم البلد أو تكرار قائمة التحقق؛ ادمجها ما لم تضف قيمة محلية.",
+    "أسعار ووسائل الدفع والضرائب والدعم القانوني في هذا السوق غير موثقة."
+  ],
+  "slug": "uae",
+  "intentType": "local-commercial-investigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Duolingo Super الإمارات: دليل المراجعة | Lingora",
+  "description": "مسودة صفحة الإمارات عن مراجعة رابط Duolingo Super؛ تفاصيل الدفع والسعر وأي شروط محلية ما زالت بحاجة إلى مصدر موثق. تخضع هذه المسودة لمراجعة المصادر قبل الن",
+  "publicationState": "research-only",
+  "searchIntent": {
+    "stage": "local-commercial-investigation",
+    "userNeed": "يريد الباحث في الإمارات التحقق من السعر والتسليم والدفع والشروط المحلية الفعلية قبل اتخاذ قرار.",
+    "pageJob": "لا تُنشر هذه الصفحة أو تُصدّر حتى يتوفر دليل محلي فريد ومؤرخ، وإجابة فعلية مختلفة عن بقية الأسواق.",
+    "distinctFrom": "لا تستبدل اسم الدولة في نص عام؛ يجب أن تضيف معلومة محلية موثقة واستخدامًا محليًا مفيدًا أو تُدمج في صفحة إقليمية واحدة.",
+    "researchStatus": "blocked"
+  }
+}

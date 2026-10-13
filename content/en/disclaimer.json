@@ -1,0 +1,64 @@
+{
+  "locale": "en",
+  "route": "/en/disclaimer/",
+  "pageType": "policy",
+  "status": "DRAFT — keyword seeds and copy require review",
+  "indexable": false,
+  "targetWords": 500,
+  "keywordResearch": {
+    "status": "PROPOSED — editorial seed, not tool-validated",
+    "primaryKeyword": "reseller disclaimer",
+    "shortTail": [
+      "Lingora disclaimer",
+      "Duolingo Super disclaimer",
+      "independent reseller notice"
+    ],
+    "longTail": [
+      "disclaimer for a Duolingo Super redeem-link reseller",
+      "Lingora relationship to the Duolingo product",
+      "scope of information on the Lingora website"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Prompt-only assumption; validate with Keyword Planner and Search Console export before approval."
+  },
+  "h1": "Reseller disclaimer and information scope",
+  "intro": "The approved disclaimer wording from the architecture source was not supplied. This page is deliberately marked as a draft and must not be treated as legal copy.",
+  "sections": [
+    {
+      "heading": "Approved wording is required",
+      "paragraphs": [
+        "The architecture plan contains the intended disclaimer text, but that source document is not present in the workspace. We will not invent a replacement or expand the legal scope from an assumption.",
+        "Once the approved wording is available, insert it unchanged unless counsel directs edits. Keep this page noindex until the owner and legal reviewer approve the exact text."
+      ]
+    }
+  ],
+  "faqs": [],
+  "publishBlockers": [
+    "LEGAL-REVIEW-REQUIRED: approved disclaimer source text is missing.",
+    "Do not publish this placeholder as legal advice."
+  ],
+  "slug": "disclaimer",
+  "intentType": "policy-informational",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Reseller Disclaimer and Information Scope | Lingora",
+  "description": "This disclaimer page is an editorial placeholder. Insert the approved source text and obtain legal review before publishing any legal statement.",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "policy-informational",
+    "userNeed": "I want to understand the reseller relationship and limits of the information provided.",
+    "pageJob": "Publish approved legal wording specific to the business and applicable jurisdictions.",
+    "distinctFrom": "A generic marketing disclaimer is not a substitute for approved legal text.",
+    "researchStatus": "blocked"
+  }
+}

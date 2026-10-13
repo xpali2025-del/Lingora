@@ -1,0 +1,150 @@
+{
+  "locale": "en",
+  "route": "/en/payment-methods/",
+  "pageType": "payments",
+  "status": "DRAFT — owner-supplied payment details; BEP20 wallet and gateway integration require verification",
+  "indexable": false,
+  "targetWords": 650,
+  "keywordResearch": {
+    "status": "OWNER-SUPPLIED PAYMENT DETAILS; no independent checkout test or keyword-volume export supplied",
+    "primaryKeyword": "Lingora payment methods",
+    "shortTail": [
+      "Lingora payment methods",
+      "Yemen payment options Lingora",
+      "USDT BEP20 payment"
+    ],
+    "longTail": [
+      "How can I pay Lingora from Yemen",
+      "Can I pay Lingora with USDT on BEP20",
+      "Which payment methods can Gulf customers use with Lingora"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Methods and account details supplied by the user on 2026-10-13; payment processing, account ownership, gateway activation, and crypto destination are not independently verified."
+  },
+  "h1": "Lingora payment methods for Yemen, the Gulf, and USDT BEP20",
+  "intro": "This page lists the methods the project owner supplied for customers in Yemen and the Gulf, plus USDT on BNB Smart Chain (BEP20) as an international option. This preview is not ready to accept money: confirm the beneficiary, full destination address, and displayed network before sending funds. Never use an incomplete or unverified address.",
+  "sections": [
+    {
+      "heading": "Paying from Yemen",
+      "paragraphs": [
+        "According to the project owner, Yemen customers may use Haseb and the Al-Kuraimi Bank accounts shown in the payment cards above. The supplied beneficiary name is also shown there. Before transferring, match the currency, account number, and beneficiary against the final order instructions; stop if any details differ.",
+        "The electronic-wallet card lists ONE Cash, Jawali, Jeeb, Floosak, and Cash with the shared number supplied by the owner. Do not assume that every wallet can transfer to every other wallet. Select the exact wallet named in your payment instructions and check that the in-app beneficiary details match before confirming."
+      ]
+    },
+    {
+      "heading": "Paying from Gulf countries",
+      "paragraphs": [
+        "The project owner listed Mada, Visa, or remittance/bank transfers for Gulf customers. Mada is associated with eligible Saudi-issued cards; Visa or transfers depend on the payment page, the issuing bank, and the provider available to the customer. Use only the method shown in the order instructions. Never send a card number, CVV, or one-time password through chat.",
+        "No final currency, card or transfer fees, or country-by-country acceptance tests were supplied. The live payment page should show the amount, currency, beneficiary, and any applicable charges before confirmation. Listing a card brand here is not a guarantee that every card from every Gulf bank will be accepted."
+      ]
+    },
+    {
+      "heading": "International option: USDT on BEP20",
+      "paragraphs": [
+        "The specified digital-currency option is USDT on BNB Smart Chain (BEP20). It may be usable internationally where local rules permit it and the customer's wallet supports the network. That does not mean it is available without exception in every country or on every exchange; check local rules and wallet access before sending.",
+        "Select BNB Smart Chain/BEP20 and send USDT only. Do not substitute ERC20, TRC20, or another network just because the token is also USDT; a network mismatch can make funds unrecoverable. Your wallet may require a balance for network fees, so review its confirmation screen before proceeding.",
+        "The complete transfer address has not been approved for publication. The address supplied for review is incomplete, so it is intentionally omitted and must not be used. Do not initiate a transfer until a full, verified destination appears in an approved Lingora payment channel. A screenshot or unverified message is not confirmation that funds arrived."
+      ]
+    },
+    {
+      "heading": "Before you send any payment",
+      "paragraphs": [
+        "Open the Lingora order instructions and match the payment method, currency, amount, and beneficiary. For a bank or wallet transfer, check the account or wallet number and beneficiary before confirming. For a card payment, enter details only on a trusted payment page; never send your card number, CVV, or one-time code to support.",
+        "For USDT, match the token, network, and full destination address character by character. Proceed only when final, verified instructions are available. This preview does not set an exchange rate, fee, confirmation count, or settlement time; the live payment channel must explain those details before transfer. Keep the transaction reference for follow-up, but do not treat a transfer receipt alone as proof of completed payment or subscription activation."
+      ]
+    }
+  ],
+  "paymentOptions": [
+    {
+      "group": "Yemen",
+      "label": "Haseb — Al-Kuraimi Bank",
+      "value": "*1310061*",
+      "details": "Reference supplied by the project owner; follow the final payment instructions."
+    },
+    {
+      "group": "Yemen",
+      "label": "Al-Kuraimi account — Yemeni rials",
+      "value": "3014666442",
+      "details": "Supplied beneficiary: Naseem Mohammed Ali."
+    },
+    {
+      "group": "Yemen",
+      "label": "Al-Kuraimi account — Saudi riyals",
+      "value": "3026969963",
+      "details": "Supplied beneficiary: Naseem Mohammed Ali."
+    },
+    {
+      "group": "Yemen",
+      "label": "Al-Kuraimi account — US dollars",
+      "value": "3019283789",
+      "details": "Supplied beneficiary: Naseem Mohammed Ali."
+    },
+    {
+      "group": "Yemen",
+      "label": "Electronic wallets",
+      "value": "774786786",
+      "details": "ONE Cash · Jawali · Jeeb · Floosak · Cash. Select the correct wallet and verify the in-app beneficiary."
+    },
+    {
+      "group": "Gulf",
+      "label": "Mada · Visa · transfers",
+      "value": "As shown in the order instructions",
+      "details": "Card and transfer acceptance depends on issuing country, bank, and payment provider."
+    },
+    {
+      "group": "International",
+      "label": "USDT on BNB Smart Chain (BEP20)",
+      "value": "USDT · BEP20",
+      "details": "International option where legally and technically available. Full destination address is pending verification; do not send to an incomplete address."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the Yemen wallet number?",
+      "answer": "Use the number shown in the wallet payment card, then confirm the selected wallet and beneficiary in its app before sending."
+    },
+    {
+      "question": "Can I send USDT to any BEP20 address I find?",
+      "answer": "No. Transfer only after receiving a complete destination through an approved Lingora payment channel, and confirm BNB Smart Chain (BEP20). The address supplied for this draft is incomplete."
+    },
+    {
+      "question": "Is BEP20 literally available in every country?",
+      "answer": "It is an international option for customers with a compatible wallet, but access can be affected by local law and wallet or exchange policies. Availability cannot be guaranteed without exception."
+    },
+    {
+      "question": "Does Mada work across every Gulf country?",
+      "answer": "Mada is associated with Saudi-issued cards. The owner-listed Gulf options are Mada, Visa, or transfers, but final acceptance depends on the payment instructions, bank, and country."
+    }
+  ],
+  "publishBlockers": [
+    "Bank, wallet, and beneficiary details were owner-supplied and have not been independently tested or matched to live accounts.",
+    "The BEP20 destination provided for review is incomplete; verify and approve the full address before publishing or accepting USDT.",
+    "The API credential sent in chat is treated as exposed; revoke it and issue a replacement, stored only in server-side secrets, never in static site files or browser code.",
+    "No API provider documentation, webhook endpoint, or tested payment integration was supplied; this page does not confirm automatic settlement.",
+    "Transfer fees, exchange rates, settlement, and refund procedures need approval before payment launch."
+  ],
+  "slug": "payment-methods",
+  "intentType": "transactional-payment-information",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Payment channels owner-supplied on 2026-10-13; not independently tested. The crypto address is incomplete and the API credential is intentionally not stored or exposed.",
+  "sourcesChecked": [
+    "User-supplied payment details in the conversation, 2026-10-13; gateway and wallet settlement not independently verified."
+  ],
+  "title": "Lingora payment methods in Yemen and the Gulf | Lingora",
+  "description": "Review Lingora payment methods: Yemen bank accounts and wallets, Mada, Visa or Gulf transfers, and USDT on BEP20. Verify the address before sending.",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "transactional-payment-information",
+    "userNeed": "I need to know which payment rail fits my location, who receives the funds, and how to avoid a network or transfer error.",
+    "pageJob": "Present owner-supplied methods by market and separate verified instructions from options that still need a complete wallet address or gateway activation.",
+    "distinctFrom": "Plans owns subscription term and redemption conditions; this page exclusively owns payment methods, recipient details, and network selection.",
+    "researchStatus": "proposed"
+  }
+}

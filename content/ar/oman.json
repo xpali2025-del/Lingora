@@ -1,0 +1,72 @@
+{
+  "locale": "ar",
+  "route": "/oman/",
+  "pageType": "market-hub",
+  "status": "RESEARCH ONLY — excluded from public routes pending distinct local evidence",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "RESEARCH ONLY — candidate query, not an active page owner; no tool metrics",
+    "primaryKeyword": "Duolingo Super عمان",
+    "shortTail": ["Duolingo Super عمان", "اشتراك دولينجو عمان"],
+    "longTail": [
+      "مراجعة رابط Duolingo Super لمدة سنة في عمان",
+      "معلومات قبل اختيار Duolingo Super في عمان"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Search-intent hypothesis only. Requires local-source evidence and real keyword-tool data before reactivation."
+  },
+  "h1": "Duolingo Super عمان: راجع التفاصيل",
+  "intro": "تقدم هذه الصفحة إطارًا أوليًا للبحث عن رابط استبدال من عُمان، وتفصل بين بيانات المنتج المكتوبة وأي تفاصيل محلية لم توثق بعد.",
+  "sections": [
+    {
+      "heading": "اعرف ما الذي ستستلمه",
+      "paragraphs": [
+        "تحقق من صيغة التسليم ومدة الرابط وما إذا كان وصف العرض يشرح الخطوات بوضوح. لا تضع بيانات حسابك في نموذج بيع، وتوقف إذا طلب منك أحد مشاركة كلمة المرور."
+      ]
+    },
+    {
+      "heading": "لا تعتمد على افتراضات السوق",
+      "paragraphs": [
+        "لا تثبت صفحة عُمان وحدها توافر خيار دفع أو تسعير محلي. ستُضاف التفاصيل المحلية عندما تُراجع من المصدر، وستُحذف أي معلومة يتعذر تأكيدها."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "هل يوجد سعر بعملة محلية؟",
+      "answer": "لم يتم اعتماد أسعار حسب الدولة؛ لا تعرض هذه المسودة سعرًا محليًا."
+    }
+  ],
+  "publishBlockers": [
+    "TO RESEARCH: unique, verified local context required before release.",
+    "لا توجد ادعاءات عن طرق الدفع أو الأسعار المحلية.",
+    "لا يُصدّر المسار العام حتى تتوفر معلومة محلية فريدة بمصدر وتاريخ مراجعة.",
+    "لا تنشئ صفحة دولة بتبديل اسم البلد أو تكرار قائمة التحقق؛ ادمجها ما لم تضف قيمة محلية.",
+    "أسعار ووسائل الدفع والضرائب والدعم القانوني في هذا السوق غير موثقة."
+  ],
+  "slug": "oman",
+  "intentType": "local-commercial-investigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Duolingo Super عمان: ما الذي يجب مراجعته | Lingora",
+  "description": "مسودة معلومات للبحث عن Duolingo Super في عُمان؛ الأسعار والوسائل المحلية وشروط التوصيل تحتاج إلى تحقق. تخضع هذه المسودة لمراجعة المصادر قبل النشر.",
+  "publicationState": "research-only",
+  "searchIntent": {
+    "stage": "local-commercial-investigation",
+    "userNeed": "يريد الباحث في عُمان التحقق من السعر والتسليم والدفع والشروط المحلية الفعلية قبل اتخاذ قرار.",
+    "pageJob": "لا تُنشر هذه الصفحة أو تُصدّر حتى يتوفر دليل محلي فريد ومؤرخ، وإجابة فعلية مختلفة عن بقية الأسواق.",
+    "distinctFrom": "لا تستبدل اسم الدولة في نص عام؛ يجب أن تضيف معلومة محلية موثقة واستخدامًا محليًا مفيدًا أو تُدمج في صفحة إقليمية واحدة.",
+    "researchStatus": "blocked"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "locale": "ar",
+  "route": "/disclaimer/",
+  "pageType": "policy",
+  "status": "DRAFT — keyword seeds and copy require review",
+  "indexable": false,
+  "targetWords": 500,
+  "keywordResearch": {
+    "status": "PROPOSED — editorial seed, not tool-validated",
+    "primaryKeyword": "إخلاء مسؤولية",
+    "shortTail": ["إخلاء مسؤولية", "إخلاء مسؤولية Lingora", "Duolingo Super"],
+    "longTail": [
+      "إخلاء مسؤولية عن روابط Duolingo Super",
+      "طبيعة علاقة Lingora بمنتج Duolingo",
+      "حدود المعلومات المنشورة في Lingora"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "ASSUMPTION: proposed editorial seed from the project prompt only; validate with Keyword Planner and the pending Search Console CSV."
+  },
+  "h1": "إخلاء مسؤولية Lingora",
+  "intro": "هذه الصفحة متوقفة عند مسودة تحريرية. يجب إدراج نص إخلاء المسؤولية المعتمد من المستند الأصلي ومراجعته قانونيًا قبل النشر.",
+  "sections": [
+    {
+      "heading": "النص المعتمد مطلوب",
+      "paragraphs": [
+        "لم يتوفر نص إخلاء المسؤولية الوارد في الخطة المعمارية. لذلك لا نضيف هنا وصفًا قانونيًا من إنشاء المسودة، ولا نستنتج نطاق العلاقة التجارية أو حدود المسؤولية من دون مستند معتمد.",
+        "بعد استلام النص المصرح به، يُدرج كما هو، مع مراجعة المستشار لأي تعديل. إلى ذلك الحين يجب أن تبقى هذه الصفحة موسومة للمراجعة القانونية وغير قابلة للفهرسة."
+      ]
+    }
+  ],
+  "faqs": [],
+  "publishBlockers": [
+    "LEGAL-REVIEW-REQUIRED: original disclaimer draft is missing.",
+    "لا تنشر هذه الصفحة قبل موافقة المستشار."
+  ],
+  "slug": "disclaimer",
+  "intentType": "policy-informational",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "إخلاء مسؤولية: حدود المعلومات قبل النشر | Lingora",
+  "description": "مسودة صفحة إخلاء مسؤولية Lingora بانتظار النص المعتمد ومراجعة المستشار؛ لا تستخدم هذه النسخة كصياغة قانونية منشورة. راجع حالة الاعتماد قبل النشر.",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "policy-informational",
+    "userNeed": "أريد فهم حدود المعلومات والمسؤولية عن عرض المنتج والعلاقة بالعلامة.",
+    "pageJob": "عرض صياغة قانونية معتمدة ومحددة للجهة والولاية.",
+    "distinctFrom": "لا تُستخدم صفحة تسويقية أو عبارة عامة بدل نص قانوني معتمد.",
+    "researchStatus": "blocked"
+  }
+}

@@ -1,0 +1,9 @@
+:root:lang(ar) {
+  --font-body: 'IBM Plex Sans Arabic', 'Inter Variable', system-ui, sans-serif;
+  --color-background: #f7f5f0;
+  --color-foreground: #20231f;
+  --color-muted: #626a63;
+  --color-border: #dedfd7;
+  --color-accent: #343a35;
+  --color-focus: #885900;
+}

@@ -1,0 +1,72 @@
+{
+  "locale": "en",
+  "route": "/en/usa/",
+  "pageType": "market-hub",
+  "status": "RESEARCH ONLY — excluded from public routes pending distinct local evidence",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "RESEARCH ONLY — candidate query, not an active page owner; no tool metrics",
+    "primaryKeyword": "Duolingo Super in the USA",
+    "shortTail": ["Duolingo Super USA", "Duolingo Super United States"],
+    "longTail": [
+      "12 month Duolingo Super redeem link in the USA",
+      "questions before choosing a Duolingo Super link in the United States"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Search-intent hypothesis only. Requires local-source evidence and real keyword-tool data before reactivation."
+  },
+  "h1": "Duolingo Super in the USA: buyer checks",
+  "intro": "This draft is for readers in the United States who want to check a redeem-link description. It does not confirm a local payment method or market-specific condition.",
+  "sections": [
+    {
+      "heading": "Start with the offer itself",
+      "paragraphs": [
+        "Check the stated term, link source, redemption conditions, and what support is available if something is unclear. A page should show these details before a buyer has to make a decision."
+      ]
+    },
+    {
+      "heading": "Keep local details evidence-based",
+      "paragraphs": [
+        "A country-specific URL does not prove that a payment option or price is available in the United States. Those details need a documented source and a current review date before they appear here."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a US payment method confirmed?",
+      "answer": "No. The available project materials do not verify country-level payment availability."
+    }
+  ],
+  "publishBlockers": [
+    "TO RESEARCH: unique, verified local context required before release.",
+    "No local payment or price claims are made.",
+    "لا يُصدّر المسار العام حتى تتوفر معلومة محلية فريدة بمصدر وتاريخ مراجعة.",
+    "لا تنشئ صفحة دولة بتبديل اسم البلد أو تكرار قائمة التحقق؛ ادمجها ما لم تضف قيمة محلية.",
+    "أسعار ووسائل الدفع والضرائب والدعم القانوني في هذا السوق غير موثقة."
+  ],
+  "slug": "usa",
+  "intentType": "local-commercial-investigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Duolingo Super in the USA: Buyer Checks | Lingora",
+  "description": "A draft checklist for reviewing a Duolingo Super redeem-link offer in the USA; payment availability and local terms are not verified.",
+  "publicationState": "research-only",
+  "searchIntent": {
+    "stage": "local-commercial-investigation",
+    "userNeed": "يريد الباحث في the USA التحقق من السعر والتسليم والدفع والشروط المحلية الفعلية قبل اتخاذ قرار.",
+    "pageJob": "لا تُنشر هذه الصفحة أو تُصدّر حتى يتوفر دليل محلي فريد ومؤرخ، وإجابة فعلية مختلفة عن بقية الأسواق.",
+    "distinctFrom": "لا تستبدل اسم الدولة في نص عام؛ يجب أن تضيف معلومة محلية موثقة واستخدامًا محليًا مفيدًا أو تُدمج في صفحة إقليمية واحدة.",
+    "researchStatus": "blocked"
+  }
+}

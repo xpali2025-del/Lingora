@@ -1,0 +1,75 @@
+{
+  "locale": "en",
+  "route": "/en/australia/",
+  "pageType": "market-hub",
+  "status": "RESEARCH ONLY — excluded from public routes pending distinct local evidence",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "RESEARCH ONLY — candidate query, not an active page owner; no tool metrics",
+    "primaryKeyword": "Duolingo Super in Australia",
+    "shortTail": [
+      "Duolingo Super Australia",
+      "Duolingo Super redeem link Australia"
+    ],
+    "longTail": [
+      "how to review a 12 month Duolingo Super link in Australia",
+      "questions about a Duolingo Super offer for Australia"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Search-intent hypothesis only. Requires local-source evidence and real keyword-tool data before reactivation."
+  },
+  "h1": "Duolingo Super in Australia: what to check",
+  "intro": "This draft sets out a careful way to review a redeem-link offer from Australia without implying that local payments, pricing, or support coverage have been confirmed.",
+  "sections": [
+    {
+      "heading": "Look for complete offer information",
+      "paragraphs": [
+        "The displayed page should make the source, period, redemption conditions, and support route easy to find. Readers should not need to guess how a link is delivered or what happens if it cannot be used."
+      ]
+    },
+    {
+      "heading": "Verify details for this market",
+      "paragraphs": [
+        "A local landing page needs verified information that is genuinely useful to Australian readers. Payment availability, local price, tax statements, and support hours remain unverified and are not included as claims."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are Australian payment options listed?",
+      "answer": "No verified local payment options were included in the available materials."
+    }
+  ],
+  "publishBlockers": [
+    "TO RESEARCH: unique, verified local context required before release.",
+    "No local payment or price claims are made.",
+    "لا يُصدّر المسار العام حتى تتوفر معلومة محلية فريدة بمصدر وتاريخ مراجعة.",
+    "لا تنشئ صفحة دولة بتبديل اسم البلد أو تكرار قائمة التحقق؛ ادمجها ما لم تضف قيمة محلية.",
+    "أسعار ووسائل الدفع والضرائب والدعم القانوني في هذا السوق غير موثقة."
+  ],
+  "slug": "australia",
+  "intentType": "local-commercial-investigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Duolingo Super in Australia: Before You Choose | Lingora",
+  "description": "A draft guide for Australian readers reviewing the stated term and conditions of a Duolingo Super redeem link; local availability remains unverified.",
+  "publicationState": "research-only",
+  "searchIntent": {
+    "stage": "local-commercial-investigation",
+    "userNeed": "يريد الباحث في Australia التحقق من السعر والتسليم والدفع والشروط المحلية الفعلية قبل اتخاذ قرار.",
+    "pageJob": "لا تُنشر هذه الصفحة أو تُصدّر حتى يتوفر دليل محلي فريد ومؤرخ، وإجابة فعلية مختلفة عن بقية الأسواق.",
+    "distinctFrom": "لا تستبدل اسم الدولة في نص عام؛ يجب أن تضيف معلومة محلية موثقة واستخدامًا محليًا مفيدًا أو تُدمج في صفحة إقليمية واحدة.",
+    "researchStatus": "blocked"
+  }
+}

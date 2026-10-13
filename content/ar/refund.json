@@ -1,0 +1,73 @@
+{
+  "locale": "ar",
+  "route": "/refund/",
+  "pageType": "policy",
+  "status": "DRAFT — keyword seeds and copy require review",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "PROPOSED — editorial seed, not tool-validated",
+    "primaryKeyword": "سياسة استرداد المبلغ",
+    "shortTail": ["استرداد الأموال", "استرجاع المبلغ", "سياسة الاسترداد"],
+    "longTail": [
+      "شروط استرداد رابط Duolingo Super",
+      "ماذا يحدث إذا لم يصل رابط الاستبدال",
+      "طلب استرداد من Lingora"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "ASSUMPTION: proposed editorial seed from the project prompt only; validate with Keyword Planner and the pending Search Console CSV."
+  },
+  "h1": "سياسة استرداد المبلغ لدى Lingora",
+  "intro": "تحتاج سياسة الاسترداد إلى شروط واضحة ومراجعة قانونية. لا تحدد هذه المسودة مهلة أو استثناء أو طريقة تعويض قبل اعتمادها من المالك.",
+  "sections": [
+    {
+      "heading": "الشروط التي يجب حسمها",
+      "paragraphs": [
+        "ينبغي أن تشرح السياسة متى يجوز طلب المراجعة، وما الإجراء إذا لم يصل الرابط أو تعذر استخدامه، وكيف تُعالج الحالات التي يتحقق فيها الدفع دون توفر مخزون. يجب أن تتسق الشروط مع عمل البوابة والمخزون، لا مع صياغة تسويقية فقط.",
+        "لم يُحدد في الملفات المتاحة وقت الاستجابة للدعم أو الحالات المستثناة أو آلية رد المبلغ. لذلك لا تعد هذه الصفحة العميل بنتيجة أو مدة قبل اتخاذ قرار مكتوب."
+      ]
+    },
+    {
+      "heading": "قبل النشر",
+      "paragraphs": [
+        "أدخل نص الخطة المعمارية المعتمد، ثم راجعه قانونيًا، واختبر كل حالة على مسار طلب تجريبي. ينبغي أن تظهر الشروط للمشتري قبل الدفع وأن تتوافق مع ما يستطيع فريق الدعم تنفيذه.",
+        "هذه نسخة عمل غير نهائية. لا تستخدمها كسياسة بيع حتى تعتمد شروط الإلغاء والاسترداد والدعم وتُختبر مع مزود الدفع."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "هل يمكنني استرداد المبلغ؟",
+      "answer": "لا تحدد هذه المسودة أهلية الاسترداد أو مهلته؛ القرار والنص المعتمد غير متاحين بعد."
+    },
+    {
+      "question": "ما الإجراء إذا لم يصل الرابط؟",
+      "answer": "يجب أن تحدد السياسة النهائية مسار الدعم والاسترداد لهذه الحالة قبل إتاحة الشراء."
+    }
+  ],
+  "publishBlockers": ["LEGAL-REVIEW-REQUIRED.", "شروط OD-06 غير محسومة."],
+  "slug": "refund",
+  "intentType": "policy-informational",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "سياسة استرداد المبلغ: الشروط قيد المراجعة | Lingora",
+  "description": "مسودة سياسة الاسترداد لدى Lingora؛ الشروط والمهل ووسيلة التواصل لم تعتمد بعد، لذا لا تمثل هذه الصفحة وعدًا باسترداد محدد. تبقى الصفحة غير جاهزة للنشر.",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "policy-informational",
+    "userNeed": "أريد معرفة شروط الإلغاء والاسترداد وما يحدث عند فشل التسليم.",
+    "pageJob": "توضيح سياسة معتمدة، أوقات التواصل، وإجراءات معالجة الطلبات.",
+    "distinctFrom": "لا تعد باسترداد أو مهلة دعم غير معتمدة.",
+    "researchStatus": "blocked"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "locale": "ar",
+  "route": "/",
+  "pageType": "home",
+  "status": "DRAFT — keyword seeds and copy require review",
+  "indexable": false,
+  "targetWords": 1000,
+  "keywordResearch": {
+    "status": "PROPOSED — intent-separated editorial seed; no volume/difficulty supplied",
+    "primaryKeyword": "Lingora Duolingo Super",
+    "shortTail": [
+      "Lingora Duolingo Super",
+      "Lingora اشتراك",
+      "Lingora رابط Duolingo Super"
+    ],
+    "longTail": [
+      "ما هي Lingora وعلاقتها بمنتج Duolingo Super",
+      "هل Lingora جهة مستقلة عن Duolingo",
+      "كيف أراجع معلومات عرض Lingora قبل الاشتراك"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data."
+  },
+  "h1": "Lingora Duolingo Super: افهم العرض قبل المتابعة",
+  "intro": "تعرض Lingora اشتراك Duolingo Super بخيار فردي أو عائلي، ولا يشمل الخصم الخيار العائلي. لا تقدم Lingora Duolingo Max؛ يرد اسمه هنا للتفريق عن Super فقط. هذه نسخة مسودة ولا تؤكد تفعيل الطلب أو الدفع أو التسليم.",
+  "sections": [
+    {
+      "heading": "ابدأ من السؤال الذي تريد إجابته",
+      "paragraphs": [
+        "تقدم Lingora Super بخيار فردي أو عائلي، والخيار العائلي لا يشمله الخصم. أما Duolingo Max فليس ضمن الخدمات التي تقدمها Lingora؛ يرد اسمه للتفريق بينه وبين Super فقط. لمراجعة تفاصيل العرض، انتقل إلى صفحة الاشتراك.",
+        "سياسات الخصوصية والاسترداد وإخلاء المسؤولية لها صفحات منفصلة، لكن نصوصها لا تزال مسودات. لا تستخدمها باعتبارها شروطًا قانونية معتمدة ولا تعتمد على معلومة غير ظاهرة في المصدر."
+      ]
+    },
+    {
+      "heading": "حالة الموقع الآن",
+      "paragraphs": [
+        "النسخة الحالية معاينة تحريرية: لا يوجد فيها مسار دفع أو تأكيد مخزون أو تسليم فعلي. الأسعار المحلية ووسائل الدفع وحقوق التوريد والشروط النهائية لم تعتمد؛ لذلك لا تحوّل هذه الصفحة إلى وعد شراء.",
+        "صفحات الأسواق القطرية محجوبة مؤقتًا من المسارات العامة؛ ستعود فقط إذا توفرت معلومات محلية حديثة وفريدة. لن يظهر البلد في عنوان صفحة منفصلة من دون محتوى يجيب عن حاجة محلية حقيقية."
+      ]
+    },
+    {
+      "heading": "كيف تُستخدم هذه الصفحة؟",
+      "paragraphs": [
+        "اعتبر الصفحة خريطة للموضوعات لا بديلًا عن شروط العرض. قارن ما تقوله صفحة المنتج الرسمية بما سيعرضه البائع فعليًا، وتوقف إذا اختلفت المدة أو لم يظهر السعر النهائي أو لم تُشرح آلية معالجة المشكلة.",
+        "عند وصول مصادر موثوقة أو شروط معتمدة، تُحدّث الصفحة المرتبطة بالنية المناسبة بدل تكرارها هنا. أرقام البحث ستبقى فارغة إلى أن تصل صادرات فعلية من أداة كلمات أو Search Console."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "ما المقصود بعبارة Duolingo Super لمدة 12 شهرًا؟",
+      "answer": "هي عبارة تصف مدة الرابط كما وردت في موجز المشروع؛ يجب التحقق من شروط الرابط ومصدره قبل النشر أو الشراء."
+    },
+    {
+      "question": "كيف أعرف إن كان العرض مناسبًا؟",
+      "answer": "راجع وصف الرابط وشروط الاستبدال والمدة ومصدر العرض. لا تعتمد على مزايا أو وعود غير موثقة."
+    }
+  ],
+  "publishBlockers": [
+    "تحقق من حق إعادة البيع وشروط الروابط قبل النشر.",
+    "الكلمات المقترحة لم تُعتمد من ملف كلمات أو Search Console."
+  ],
+  "slug": "home",
+  "intentType": "brand-navigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Owner-confirmed on 2026-10-13: Lingora states it offers individual and Family Duolingo Super; the Family option is not discounted and Duolingo Max is not offered. Checkout and fulfilment remain unverified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Lingora Duolingo Super: دليل العرض بوضوح | Lingora",
+  "description": "تعرّف إلى خيارات Duolingo Super لدى Lingora: اشتراك فردي أو عائلي، ولماذا لا يشمل الخصم الخيار العائلي. لا تقدم Lingora اشتراك Duolingo Max.",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "brand-navigation",
+    "userNeed": "أريد التحقق مماهية Lingora وصلتها بعرض Duolingo Super قبل الانتقال إلى تفاصيل الاشتراك.",
+    "pageJob": "تعريف المشروع وحدود علاقته بالمنتج ثم توجيه الباحث إلى صفحة الشروط، لا استهداف كل استعلامات الشراء.",
+    "distinctFrom": "صفحة الاشتراك `/subscription/` تملك الاستعلامات المعاملاتية ومدة العرض.",
+    "researchStatus": "proposed"
+  }
+}

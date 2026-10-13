@@ -1,0 +1,87 @@
+{
+  "locale": "en",
+  "route": "/en/",
+  "pageType": "home",
+  "status": "DRAFT — keyword seeds and copy require review",
+  "indexable": false,
+  "targetWords": 1000,
+  "keywordResearch": {
+    "status": "PROPOSED — intent-separated editorial seed; no volume/difficulty supplied",
+    "primaryKeyword": "Lingora Duolingo Super",
+    "shortTail": [
+      "Lingora Duolingo Super",
+      "Lingora redeem link",
+      "Lingora independent reseller"
+    ],
+    "longTail": [
+      "What is Lingora and how is it related to Duolingo Super",
+      "Is Lingora an official Duolingo reseller",
+      "How to check a Lingora Duolingo Super offer"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data."
+  },
+  "h1": "Lingora Duolingo Super: start with clear offer information",
+  "intro": "Lingora states that it offers Duolingo Super in individual and Family options; the Family option is not discounted. Lingora does not offer Duolingo Max, which is mentioned only to distinguish it from Super. This draft does not confirm that ordering, payment, or fulfilment is live.",
+  "sections": [
+    {
+      "heading": "Start with the question you need answered",
+      "paragraphs": [
+        "Lingora states that Duolingo Super is available in individual or Family options, and the Family option is not discounted. Duolingo Max is not offered by Lingora; it is mentioned only to distinguish it from Super. See Plans for the brief offer details.",
+        "Privacy, refund, and disclaimer pages have separate routes, but their copy remains draft. Do not treat those placeholders as approved legal terms or rely on details that are not stated in a verified source."
+      ]
+    },
+    {
+      "heading": "Current site status",
+      "paragraphs": [
+        "This version is an editorial preview: it has no checkout, confirmed inventory, or fulfilment flow. Local prices, payment availability, supply rights, and final terms have not been approved, so this page is not a promise to sell.",
+        "Country landing pages are temporarily withheld from public routes. They will return only if current, distinct local information is available; a country name alone is not a reason to create a separate page."
+      ]
+    },
+    {
+      "heading": "How to use this page",
+      "paragraphs": [
+        "Treat the home page as a topic guide, not a substitute for offer terms. Compare the product owner’s description with the seller’s actual offer, and pause if the term differs, the final amount is missing, or problem handling is unclear.",
+        "When reliable sources or approved terms arrive, update the page that owns the relevant intent rather than repeating the details here. Search metrics stay blank until real keyword-tool or Search Console exports are supplied."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I check before choosing a redeem link?",
+      "answer": "Review the stated term, source, redemption conditions, and support details. Do not rely on claims that are not supported by a source."
+    },
+    {
+      "question": "Does a 12-month label confirm every condition?",
+      "answer": "No. Confirm when the term starts and read any additional conditions supplied with the specific offer."
+    }
+  ],
+  "publishBlockers": [
+    "Resale rights and source of links must be verified before launch.",
+    "Keyword phrases are editorial seeds; no volume or ranking data is available yet."
+  ],
+  "slug": "home",
+  "intentType": "brand-navigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Owner-confirmed on 2026-10-13: Lingora states it offers individual and Family Duolingo Super; the Family option is not discounted and Duolingo Max is not offered. Checkout and fulfilment remain unverified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Lingora Duolingo Super: Offer Guide | Lingora",
+  "description": "See Lingora’s stated Duolingo Super options: individual or Family, with a brief clarification that Duolingo Max is not offered.",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "brand-navigation",
+    "userNeed": "I want to verify what Lingora is and how it relates to a Duolingo Super offer.",
+    "pageJob": "Introduce the project, disclose the independent relationship accurately, and route buyers to plan details.",
+    "distinctFrom": "The plans page owns transactional duration and purchase queries.",
+    "researchStatus": "proposed"
+  }
+}

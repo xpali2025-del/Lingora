@@ -1,0 +1,80 @@
+{
+  "locale": "en",
+  "route": "/en/refund/",
+  "pageType": "policy",
+  "status": "DRAFT — keyword seeds and copy require review",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "PROPOSED — editorial seed, not tool-validated",
+    "primaryKeyword": "refund policy",
+    "shortTail": [
+      "Lingora refund policy",
+      "redeem-link refund",
+      "payment failed order support"
+    ],
+    "longTail": [
+      "refund terms for a Duolingo Super redeem link",
+      "what happens if a paid order has no link",
+      "how to request order support from Lingora"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Prompt-only assumption; validate with Keyword Planner and Search Console export before approval."
+  },
+  "h1": "Refund policy for Lingora",
+  "intro": "The owner has not approved refund conditions or support response times. This draft therefore identifies the decisions needed without promising a particular outcome.",
+  "sections": [
+    {
+      "heading": "Decisions the final policy must explain",
+      "paragraphs": [
+        "A published refund policy should state how a buyer can report a missing or unusable redeem link, how a paid-but-unfulfilled order is handled, what review steps apply, and which outcomes are available. The wording must match the real fulfilment and payment systems.",
+        "No response-time target, eligibility window, or exception list is confirmed in the materials available for this draft. Do not infer one from common practice or present it as an existing commitment."
+      ]
+    },
+    {
+      "heading": "Test the process before describing it",
+      "paragraphs": [
+        "The owner should approve exact terms, counsel should review the wording, and a sandbox order should be used to test each described path. The published page should be visible before checkout, not hidden until after payment.",
+        "Until those decisions are recorded and tested, this page remains a noindex placeholder. It cannot be used as a customer-facing policy."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does Lingora currently guarantee a refund window?",
+      "answer": "No approved refund period has been supplied for this draft."
+    },
+    {
+      "question": "What if payment succeeds but a link is unavailable?",
+      "answer": "The final policy must state the actual escalation and remedy. That path is not approved yet."
+    }
+  ],
+  "publishBlockers": [
+    "LEGAL-REVIEW-REQUIRED.",
+    "Refund and support decisions remain open."
+  ],
+  "slug": "refund",
+  "intentType": "policy-informational",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Refund Policy: Terms Awaiting Approval | Lingora",
+  "description": "Refund timing, eligibility, exclusions, and support response times have not been approved. This page is a draft placeholder, not a promise of a refund.",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "policy-informational",
+    "userNeed": "I want to understand cancellation, refund eligibility and failed delivery handling.",
+    "pageJob": "State the approved refund process, contact path and response expectations.",
+    "distinctFrom": "Do not promise terms that the owner has not adopted.",
+    "researchStatus": "blocked"
+  }
+}
