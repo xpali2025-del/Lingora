@@ -155,7 +155,7 @@
     "User-supplied payment details in the conversation, 2026-10-13; gateway and wallet settlement not independently verified."
   ],
   "title": "Lingora payment methods in Yemen and the Gulf | Lingora",
-  "description": "Review Lingora payment methods: Yemen bank accounts and wallets, Mada, Visa or Gulf transfers, and USDT on BEP20. Verify the address before sending.",
+  "description": "Lingora payment methods: Yemen bank accounts and wallets, Mada, Visa or Gulf transfers, plus how to verify details before any transfer.",
   "publicationState": "draft",
   "searchIntent": {
     "stage": "transactional-payment-information",

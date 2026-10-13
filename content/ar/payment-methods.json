@@ -155,7 +155,7 @@
     "User-supplied payment details in the conversation, 2026-10-13; gateway and wallet settlement not independently verified."
   ],
   "title": "طرق الدفع لدى Lingora في اليمن والخليج | Lingora",
-  "description": "راجع طرق الدفع لدى Lingora: حسابات الكريمي ومحافظ اليمن، ومدى وVisa والحوالات للخليج، وUSDT عبر BEP20؛ تحقق من العنوان قبل التحويل.",
+  "description": "طرق الدفع لدى Lingora: حسابات الكريمي ومحافظ اليمن، ومدى وVisa والحوالات للخليج، مع خطوات التحقق من البيانات قبل أي تحويل.",
   "publicationState": "draft",
   "searchIntent": {
     "stage": "transactional-payment-information",

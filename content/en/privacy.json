@@ -83,7 +83,7 @@
     "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
   ],
   "title": "Privacy Policy: Data and Retention Draft | Lingora",
-  "description": "A draft framework for Lingora privacy information. The final policy must match the deployed database, logs, analytics, gateway flow, and legal review.",
+  "description": "See Lingora’s privacy framework: the types of data, how long it is kept and your rights as a user. The final wording is awaiting approval.",
   "publicationState": "draft",
   "searchIntent": {
     "stage": "policy-informational",
