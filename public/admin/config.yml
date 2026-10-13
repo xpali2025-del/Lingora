@@ -1,0 +1,121 @@
+backend:
+  name: github
+  repo: OWNER/lingora
+  branch: main
+  squash_merges: true
+  base_url: https://oauth.example.invalid
+  auth_endpoint: auth
+
+publish_mode: editorial_workflow
+media_folder: public/images
+public_folder: /images
+site_url: https://lingora.com
+
+collections:
+  - name: arabic
+    label: Arabic content
+    folder: content/ar
+    create: true
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields: &content_fields
+      - { label: Slug, name: slug, widget: string }
+      - { label: Locale, name: locale, widget: select, options: [ar, en] }
+      - { label: Route, name: route, widget: string }
+      - { label: Intent type, name: intentType, widget: string }
+      - { label: Last reviewed, name: lastVerified, widget: date }
+      - { label: Verification status, name: verificationStatus, widget: string }
+      - { label: Sources checked, name: sourcesChecked, widget: list }
+      - { label: Page type, name: pageType, widget: string }
+      - {
+          label: Publication state,
+          name: publicationState,
+          widget: select,
+          options: [draft, research-only],
+          default: draft,
+        }
+      - label: Search intent
+        name: searchIntent
+        widget: object
+        fields:
+          - { label: Intent stage, name: stage, widget: string }
+          - { label: User need, name: userNeed, widget: text }
+          - { label: Page job, name: pageJob, widget: text }
+          - { label: Distinct from, name: distinctFrom, widget: text }
+          - {
+              label: Research status,
+              name: researchStatus,
+              widget: select,
+              options: [proposed, source-backed, blocked],
+            }
+      - { label: Status, name: status, widget: string }
+      - { label: Indexable, name: indexable, widget: boolean, default: false }
+      - { label: Target words, name: targetWords, widget: number }
+      - label: Keyword research
+        name: keywordResearch
+        widget: object
+        fields:
+          - { label: Research status, name: status, widget: string }
+          - { label: Primary keyword, name: primaryKeyword, widget: string }
+          - { label: Short-tail keywords, name: shortTail, widget: list }
+          - { label: Long-tail keywords, name: longTail, widget: list }
+          - {
+              label: Monthly volume,
+              name: volume,
+              widget: number,
+              required: false,
+            }
+          - {
+              label: Difficulty,
+              name: difficulty,
+              widget: number,
+              required: false,
+            }
+          - label: Search Console
+            name: searchConsole
+            widget: object
+            fields:
+              - { label: Clicks, name: clicks, widget: number, required: false }
+              - {
+                  label: Impressions,
+                  name: impressions,
+                  widget: number,
+                  required: false,
+                }
+              - { label: CTR, name: ctr, widget: number, required: false }
+              - {
+                  label: Position,
+                  name: position,
+                  widget: number,
+                  required: false,
+                }
+          - { label: Source, name: source, widget: text }
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: H1, name: h1, widget: string }
+      - { label: Intro, name: intro, widget: text }
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - label: Paragraphs
+            name: paragraphs
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+      - label: FAQs
+        name: faqs
+        widget: list
+        fields:
+          - { label: Question, name: question, widget: string }
+          - { label: Answer, name: answer, widget: text }
+      - { label: Publish blockers, name: publishBlockers, widget: list }
+  - name: english
+    label: English content
+    folder: content/en
+    create: true
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields: *content_fields
