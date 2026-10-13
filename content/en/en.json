@@ -22,7 +22,11 @@
       "Lingora",
       "Lingora Duolingo",
       "Lingora Super",
-      "Lingora reseller"
+      "Lingora reseller",
+      "annual plan",
+      "yearly membership",
+      "buy Duolingo Super",
+      "Duolingo subscription"
     ],
     "semanticTerms": [
       "Duolingo Super",
@@ -30,7 +34,9 @@
       "Family plan",
       "independent reseller",
       "redeem link",
-      "language learning"
+      "language learning",
+      "travel language learning",
+      "Duolingo account"
     ],
     "volume": null,
     "difficulty": null,
@@ -75,6 +81,10 @@
     {
       "question": "Does a 12-month label confirm every condition?",
       "answer": "No. Confirm when the term starts and read any additional conditions supplied with the specific offer."
+    },
+    {
+      "question": "Is Lingora the official Duolingo website?",
+      "answer": "This page does not prove any official relationship with Duolingo. Lingora presents itself as an independent seller; the Disclaimer page explains the limits of that relationship once its wording is approved."
     }
   ],
   "publishBlockers": [

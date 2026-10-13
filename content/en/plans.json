@@ -23,7 +23,12 @@
       "yearly Duolingo Super",
       "1-year Duolingo Super subscription",
       "Duolingo Super 12 months redeem link",
-      "Duolingo Super activation link"
+      "Duolingo Super activation link",
+      "Duolingo Super price",
+      "Duolingo Super features",
+      "activation link",
+      "Super plan",
+      "how to redeem a Duolingo Super code"
     ],
     "semanticTerms": [
       "redeem",
@@ -33,7 +38,12 @@
       "individual plan",
       "support",
       "failed redemption",
-      "Super vs Max"
+      "Super vs Max",
+      "ads",
+      "unlimited hearts",
+      "Practice Hub",
+      "free vs Super",
+      "renewal"
     ],
     "volume": null,
     "difficulty": null,
@@ -130,6 +140,10 @@
     {
       "question": "Does the Duolingo Super Family option receive a discount?",
       "answer": "No. The owner confirms that the Family option is not discounted."
+    },
+    {
+      "question": "How does the free Duolingo app differ from Super?",
+      "answer": "Duolingo’s own guide describes Super as an ad-free experience with unlimited hearts and extra practice options. Check the features shown in your account before deciding, because they can change and Lingora does not guarantee them."
     }
   ],
   "publishBlockers": [
