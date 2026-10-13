@@ -31,7 +31,7 @@
 | # | النوع | المشكلة | الخطورة |
 |---|---|---|---|
 | 1 | إعدادات/CI | `format:check` يفشل في 45 ملفاً: `.prettierrc` (singleQuote) مفقود من المستودع، فيفشل `check:all` | عالية |
-| 2 | إعدادات | لا يوجد `.gitignore`؛ تم تتبع `scripts/__pycache__/*.pyc` و`tsconfig.tsbuildinfo`؛ `.size-budget/` يُنتج بالبناء | متوسطة |
+| 2 | إعدادات | (أُضيف `.gitignore` الآن) كان غائباً؛ تم تتبع `scripts/__pycache__/*.pyc` و`tsconfig.tsbuildinfo`؛ `.size-budget/` يُنتج بالبناء | متوسطة |
 | 3 | CI | لا يوجد `.github/` (workflows)، رغم أن README يشترط CI/branch protection | متوسطة |
 | 4 | محتوى | 10 صفحات أقل من هدف الكلمات (home 297/1000، disclaimer 82/500، privacy، refund، subscription/plans) | متوسطة (مسودة) |
 | 5 | قانوني | disclaimer/privacy/refund بلا مراجعة قانونية (OD-05/06) | عالية قبل الإطلاق |
