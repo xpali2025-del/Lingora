@@ -1,0 +1,140 @@
+{
+  "locale": "en",
+  "route": "/en/plans/",
+  "pageType": "plans",
+  "status": "DRAFT — keyword seeds and copy require review",
+  "indexable": false,
+  "targetWords": 1600,
+  "keywordResearch": {
+    "status": "PROPOSED — intent-separated editorial seed; no volume/difficulty supplied",
+    "primaryKeyword": "12-month Duolingo Super link",
+    "shortTail": [
+      "12-month Duolingo Super link",
+      "Duolingo Super redeem link",
+      "Duolingo Super subscription"
+    ],
+    "longTail": [
+      "How to check a 12-month Duolingo Super link before buying",
+      "What should a Duolingo Super link offer disclose",
+      "What to do if a Super redeem link does not work"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data."
+  },
+  "h1": "12-month Duolingo Super link: what to verify first",
+  "intro": "The owner confirms that Lingora offers Duolingo Super in individual or Family options; the Family option is not discounted. Lingora does not offer Duolingo Max; it is mentioned only to distinguish the products. This draft does not confirm price, stock, live payment, or fulfilment.",
+  "sections": [
+    {
+      "heading": "Read the stated term carefully",
+      "paragraphs": [
+        "Check how the offer describes its 12-month period, when that period begins, and whether redemption conditions are attached. The source of the link should be clear enough for a buyer to know whom to contact with a question.",
+        "The product name is used here only to identify the subject. This draft does not establish a commercial authorization or describe current product features that have not been verified."
+      ]
+    },
+    {
+      "heading": "Compare the information, not just the label",
+      "paragraphs": [
+        "Look for the final amount, delivery method, support path, and the steps that apply if a link cannot be used. A page should not promise a refund, delivery time, or benefit until the owner has approved terms that the service can actually meet.",
+        "Payment options vary by market and are not confirmed in this draft. Do not treat an informational currency conversion or a country page as evidence that a local payment method is supported."
+      ]
+    },
+    {
+      "heading": "Questions a complete offer page should answer",
+      "paragraphs": [
+        "Before a checkout is enabled, its page should explain what is being sold, how the redeem link is delivered, which conditions apply, and what happens if stock is unavailable after payment. Buyers should never need to provide an account password to a reseller.",
+        "The project still needs to verify the right to resell, confirm supplier terms, approve refund language, and test its fulfilment path. Until those checks are complete, this page is an editorial draft rather than an active offer."
+      ]
+    },
+    {
+      "heading": "Duolingo Super options at Lingora",
+      "paragraphs": [
+        "Lingora states that it offers Super in individual and Family options. The Family option is not discounted, according to the owner.",
+        "Lingora does not offer Duolingo Max. It is mentioned here only to distinguish it from Super, not as a Lingora offer."
+      ]
+    },
+    {
+      "heading": "Check who supplies the link and how it is redeemed",
+      "paragraphs": [
+        "The offer should identify its supplier and explain the steps required to use the link. If redemption requires an action in the app, ask which steps you perform yourself and what the seller will never ask you to provide. Do not share a password or one-time verification code or give another person access to your account.",
+        "An independent sales page does not prove an official relationship with Duolingo. The project brief describes Lingora as an independent reseller; proof of resale rights or authorization was not supplied for review. The distinction must stay clear to readers."
+      ]
+    },
+    {
+      "heading": "What if the link cannot be used?",
+      "paragraphs": [
+        "Before ordering, read the seller’s stated process for an invalid link, out-of-stock item, or delayed delivery, and confirm that a real contact route exists. Keep a copy of the offer and order proof; do not assume a refund is automatic or guaranteed unless written terms say so.",
+        "Do not proceed if the final price, term, or responsible support party is missing. This page does not promise a delivery or response time or a refund result. The owner must adopt and test those terms before they become public promises."
+      ]
+    },
+    {
+      "heading": "A short decision checklist",
+      "paragraphs": [
+        "Proceed only when you can identify the exact product, its source, term, redemption steps, final amount, and the party responsible for resolving a problem. If an essential detail remains unclear, pause rather than guess.",
+        "This is an early review guide, not confirmation that an offer is currently available. The page must remain out of search until supply rights, offer terms, price, support, refunds, and legal review are resolved."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does “12 months” mean for this link?",
+      "answer": "It is the stated term in the project brief. Confirm the actual start date and supplier conditions before publishing or relying on a specific offer."
+    },
+    {
+      "question": "Should I share my account password with a seller?",
+      "answer": "No. Do not share a password. The approved redemption instructions should explain the process without asking the buyer to disclose account credentials."
+    },
+    {
+      "question": "Are local payment options confirmed?",
+      "answer": "No. Market-specific payment availability has not been verified and is intentionally omitted from this draft."
+    },
+    {
+      "question": "Does Lingora offer Duolingo Max?",
+      "answer": "No. The owner confirms that Lingora offers Duolingo Super in individual or Family options only. Max is mentioned solely to distinguish the products, not as a Lingora service."
+    },
+    {
+      "question": "Does a Lingora page prove the link is official from Duolingo?",
+      "answer": "No. The project brief describes Lingora as an independent reseller, and no authorization document was supplied for this review. Do not use “official” or “authorized” without written evidence."
+    },
+    {
+      "question": "Are the price and current availability confirmed?",
+      "answer": "No. This is a draft and contains no approved price, confirmed stock, or verified local payment method. Confirm the amount, term, and redemption conditions before any order is enabled."
+    },
+    {
+      "question": "What if a seller asks for my account password?",
+      "answer": "Do not share your password or a one-time code. Stop and request written redemption instructions; do not proceed if account credentials are required."
+    },
+    {
+      "question": "Does the Duolingo Super Family option receive a discount?",
+      "answer": "No. The owner confirms that the Family option is not discounted."
+    }
+  ],
+  "publishBlockers": [
+    "Resale rights, checkout pricing, fulfilment, refund language and support terms require owner/legal review."
+  ],
+  "slug": "plans",
+  "intentType": "transactional",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Duolingo feature facts were checked against the official guide on 2026-10-13. The owner confirmed individual and Family Super options, no Family discount, and that Lingora does not offer Max. Seller, resale rights, redemption, price, payment and legal terms remain unverified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)",
+    "https://blog.duolingo.com/duolingo-101-how-to-learn-a-language-on-duolingo/ (official feature description; checked 2026-10-13)",
+    "Owner confirmation in chat, 2026-10-13 (plan options, Family discount, and Max availability)."
+  ],
+  "title": "12-Month Duolingo Super Link: Buyer Checklist | Lingora",
+  "description": "A draft checklist for reviewing the stated term, source, redemption conditions, and support details of a 12-month Duolingo Super link.",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "transactional",
+    "userNeed": "I want to evaluate a 12-month Duolingo Super link and know the conditions before buying.",
+    "pageJob": "Explain the offer, term, redemption and support checks; surface unresolved seller terms rather than inventing them.",
+    "distinctFrom": "The home page owns brand-navigation queries; this page owns transactional plan queries.",
+    "researchStatus": "source-backed"
+  }
+}

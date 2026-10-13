@@ -1,0 +1,80 @@
+{
+  "locale": "en",
+  "route": "/en/privacy/",
+  "pageType": "policy",
+  "status": "DRAFT — keyword seeds and copy require review",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "PROPOSED — editorial seed, not tool-validated",
+    "primaryKeyword": "privacy policy",
+    "shortTail": [
+      "Lingora privacy policy",
+      "order data privacy",
+      "redeem-link order key"
+    ],
+    "longTail": [
+      "what data a Lingora order page processes",
+      "how a buyer order key is stored",
+      "Lingora data retention and privacy practices"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Prompt-only assumption; validate with Keyword Planner and Search Console export before approval."
+  },
+  "h1": "Privacy policy for Lingora",
+  "intro": "This is a drafting framework, not an effective privacy notice. The actual data flow and retention rules must be inspected before the page can describe them as facts.",
+  "sections": [
+    {
+      "heading": "Map the real data flow first",
+      "paragraphs": [
+        "A complete privacy notice should identify data handled on public pages, checkout and order retrieval; explain each purpose; name any outside service that receives data; and state how long records are kept.",
+        "The project constitution proposes data minimization: no name, email, phone, Duolingo username or raw IP, and a hashed buyer key. Those are design constraints, not proof of deployed behavior. Verify the D1 schema, Worker payloads, logs, and gateway integration before making a public promise."
+      ]
+    },
+    {
+      "heading": "Retention and review",
+      "paragraphs": [
+        "The retention period for orders and events remains an owner decision. The site must not invent a deletion schedule or imply that a record is erased until a scheduled cleanup job is implemented and tested.",
+        "A legal reviewer should compare the final policy with the actual system and the jurisdictions served. Until then, the page stays noindex and marked for review."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is this privacy notice final?",
+      "answer": "No. It must be reconciled with deployed data flows and approved by counsel."
+    },
+    {
+      "question": "Does Lingora store raw IP addresses?",
+      "answer": "The project specification forbids raw-IP storage, but the deployed logging and service configuration still need a verified audit."
+    }
+  ],
+  "publishBlockers": [
+    "LEGAL-REVIEW-REQUIRED.",
+    "Inspect the deployed database, logs, gateway and retention job before release."
+  ],
+  "slug": "privacy",
+  "intentType": "policy-informational",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Privacy Policy: Data and Retention Draft | Lingora",
+  "description": "A draft framework for Lingora privacy information. The final policy must match the deployed database, logs, analytics, gateway flow, and legal review.",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "policy-informational",
+    "userNeed": "I want to know what data Lingora collects, why, and how long it keeps it.",
+    "pageJob": "Describe actual data flows, recipients, retention and user rights.",
+    "distinctFrom": "Must match implemented services and processors; no boilerplate policy.",
+    "researchStatus": "blocked"
+  }
+}

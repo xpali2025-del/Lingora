@@ -1,0 +1,72 @@
+{
+  "locale": "ar",
+  "route": "/yemen/",
+  "pageType": "market-hub",
+  "status": "RESEARCH ONLY — excluded from public routes pending distinct local evidence",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "RESEARCH ONLY — candidate query, not an active page owner; no tool metrics",
+    "primaryKeyword": "Duolingo Super اليمن",
+    "shortTail": ["Duolingo Super اليمن", "اشتراك دولينجو اليمن"],
+    "longTail": [
+      "طريقة الحصول على رابط Duolingo Super في اليمن",
+      "معلومات عن اشتراك Duolingo Super للمتعلمين في اليمن"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Search-intent hypothesis only. Requires local-source evidence and real keyword-tool data before reactivation."
+  },
+  "h1": "Duolingo Super اليمن: معلومات تحتاج تحققًا",
+  "intro": "هذه المسودة تجمع الأسئلة التي ينبغي حسمها قبل تقديم معلومات عن رابط استبدال للمتعلمين في اليمن، ولا تفترض طريقة دفع أو سعرًا محددًا.",
+  "sections": [
+    {
+      "heading": "الأسئلة التي تسبق عرضًا محليًا",
+      "paragraphs": [
+        "ينبغي أن تؤكد الصفحة صلاحية المصدر والمدة وإمكانية إيصال الرابط إلى المشتري. أي ادعاء عن طريقة دفع أو قناة تسليم داخل اليمن يحتاج إلى اختبار ومصدر حديث."
+      ]
+    },
+    {
+      "heading": "احذر التفاصيل غير المؤكدة",
+      "paragraphs": [
+        "إذا لم يوضح العرض السعر النهائي أو شروط الاستبدال، اطلب توضيحًا مكتوبًا. قرار العملة لليمن ما زال مؤجلًا في سجل المشروع، لذا لا يصح أن تنشر هذه المسودة رقمًا كأنه نهائي."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "ما العملة المتاحة في اليمن؟",
+      "answer": "قرار العملة لليمن مؤجل؛ لن نعرض ريالًا أو دولارًا قبل اعتماد المالك."
+    }
+  ],
+  "publishBlockers": [
+    "TO RESEARCH: unique, verified local context required before release.",
+    "لا توجد ادعاءات عن طرق الدفع أو الأسعار المحلية.",
+    "لا يُصدّر المسار العام حتى تتوفر معلومة محلية فريدة بمصدر وتاريخ مراجعة.",
+    "لا تنشئ صفحة دولة بتبديل اسم البلد أو تكرار قائمة التحقق؛ ادمجها ما لم تضف قيمة محلية.",
+    "أسعار ووسائل الدفع والضرائب والدعم القانوني في هذا السوق غير موثقة."
+  ],
+  "slug": "yemen",
+  "intentType": "local-commercial-investigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Duolingo Super اليمن: معلومات قيد التحقق | Lingora",
+  "description": "مسودة صفحة اليمن حول البحث عن رابط Duolingo Super؛ السعر وطريقة الدفع والدعم المحلي قرارات غير محسومة. تخضع هذه المسودة لمراجعة المصادر قبل النشر.",
+  "publicationState": "research-only",
+  "searchIntent": {
+    "stage": "local-commercial-investigation",
+    "userNeed": "يريد الباحث في اليمن التحقق من السعر والتسليم والدفع والشروط المحلية الفعلية قبل اتخاذ قرار.",
+    "pageJob": "لا تُنشر هذه الصفحة أو تُصدّر حتى يتوفر دليل محلي فريد ومؤرخ، وإجابة فعلية مختلفة عن بقية الأسواق.",
+    "distinctFrom": "لا تستبدل اسم الدولة في نص عام؛ يجب أن تضيف معلومة محلية موثقة واستخدامًا محليًا مفيدًا أو تُدمج في صفحة إقليمية واحدة.",
+    "researchStatus": "blocked"
+  }
+}

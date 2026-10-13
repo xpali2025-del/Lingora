@@ -1,0 +1,76 @@
+{
+  "locale": "ar",
+  "route": "/privacy/",
+  "pageType": "policy",
+  "status": "DRAFT — keyword seeds and copy require review",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "PROPOSED — editorial seed, not tool-validated",
+    "primaryKeyword": "سياسة الخصوصية",
+    "shortTail": ["سياسة الخصوصية", "خصوصية Lingora", "بيانات الطلب"],
+    "longTail": [
+      "سياسة خصوصية موقع Lingora",
+      "ما البيانات التي يعالجها طلب رابط استبدال",
+      "كيفية حماية مفتاح استرجاع الطلب"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "ASSUMPTION: proposed editorial seed from the project prompt only; validate with Keyword Planner and the pending Search Console CSV."
+  },
+  "h1": "سياسة الخصوصية Lingora",
+  "intro": "هذه مسودة بنيوية وليست سياسة نافذة. لا يمكن الجزم بما يُجمع أو يُحذف قبل مطابقة الصفحة مع التنفيذ الفعلي ومراجعة الالتزامات القانونية.",
+  "sections": [
+    {
+      "heading": "قبل اعتماد سياسة الخصوصية",
+      "paragraphs": [
+        "ينبغي أن يشرح النص النهائي البيانات التي تُعالج في صفحات المحتوى وصفحات الطلب، والغرض من المعالجة، ومكان التخزين، ومدد الاحتفاظ، والجهات الخارجية التي تستقبل البيانات إن وجدت.",
+        "تتضمن مواصفة المشروع قيودًا مقترحة لتقليل البيانات، منها عدم حفظ الاسم أو البريد أو الهاتف أو عنوان IP الخام، وحفظ مفتاح الطلب على هيئة تجزئة. يجب التحقق من ذلك في قاعدة البيانات والسجلات الفعلية قبل تحويل هذه القيود إلى وعد للمستخدم."
+      ]
+    },
+    {
+      "heading": "المراجعة اللازمة",
+      "paragraphs": [
+        "لا تذكر هذه المسودة أن الموقع لا يستخدم ملفات تعريف ارتباط أو أدوات تحليل أو بوابة دفع حتى يتم فحص إعداد النشر والطلبات الشبكية. كما يجب تحديد مدة الاحتفاظ بالأحداث ووسيلة طلب الدعم من خلال قرار المالك.",
+        "يجب أن يراجع مستشار قانوني النص النهائي وأن تتطابق كل عبارة مع سلوك النظام. الصفحة الحالية غير صالحة للنشر أو للاعتماد على حقوق خصوصية محددة."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "هل هذه سياسة خصوصية نهائية؟",
+      "answer": "لا؛ هذه مسودة تنظيمية تنتظر مطابقة التنفيذ والنص القانوني المعتمد."
+    },
+    {
+      "question": "هل يخزن الموقع عنوان IP؟",
+      "answer": "لا نؤكد السلوك الفعلي قبل اختبار الخدمات والسجلات. مواصفة المشروع تمنع تخزين عنوان IP الخام، ويجب إثبات ذلك في التنفيذ."
+    }
+  ],
+  "publishBlockers": [
+    "LEGAL-REVIEW-REQUIRED.",
+    "التحقق من قاعدة البيانات والسجلات والخدمات الخارجية ما زال مطلوبًا."
+  ],
+  "slug": "privacy",
+  "intentType": "policy-informational",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "سياسة الخصوصية: البيانات والمراجعة القانونية | Lingora",
+  "description": "مسودة سياسة خصوصية Lingora؛ يجب مطابقة النص مع مخطط قاعدة البيانات ومراجعة قانونية قبل وصف جمع البيانات أو الاحتفاظ بها. لا تعتمد الصفحة حتى مراجعة التنفيذ",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "policy-informational",
+    "userNeed": "أريد معرفة البيانات التي تجمعها Lingora وسبب استخدامها والاحتفاظ بها.",
+    "pageJob": "شرح تدفق البيانات الفعلي ومشاركة البيانات والاحتفاظ وحقوق المستخدم.",
+    "distinctFrom": "يجب أن تطابق السياسة التطبيق والبوابات الفعلية، لا نصًا عامًا.",
+    "researchStatus": "blocked"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "locale": "en",
+  "route": "/en/about/",
+  "pageType": "about",
+  "status": "OWNER-APPROVED BRAND COPY — indexable About page",
+  "indexable": true,
+  "targetWords": 200,
+  "keywordResearch": {
+    "status": "PROPOSED — intent-separated editorial seed; no volume/difficulty supplied",
+    "primaryKeyword": "About Lingora",
+    "shortTail": ["About Lingora", "Lingora mission", "Contact Lingora"],
+    "longTail": [
+      "What is Lingora’s mission and vision",
+      "Which Duolingo Super options does Lingora offer",
+      "How to contact Lingora"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Owner-confirmed brand/product/contact details and owner-directed mission/vision copy; no volume or Search Console export supplied."
+  },
+  "h1": "About Lingora",
+  "intro": "Lingora is a bilingual website with individual and family options for Duolingo Super. Its aim is to explain the stated offer in plain language so visitors can understand what is included before deciding. The site focuses on Super and clarifies that Duolingo Max is not offered by Lingora.",
+  "sections": [
+    {
+      "heading": "Our purpose",
+      "paragraphs": [
+        "Lingora’s purpose is to make information about its Super options easier to find and understand. Pages identify the selected plan format and state owner-confirmed details rather than asking visitors to infer them from a short label or promotional image. The site also says clearly that the group option is not discounted.",
+        "Each page is designed to answer a distinct question. Plans explains the Super options, while Payment Methods lists channels supplied by the owner and makes clear that live receipt has not been independently tested. Listing a method does not mean automated checkout or fulfilment is active."
+      ]
+    },
+    {
+      "heading": "Our vision",
+      "paragraphs": [
+        "Lingora’s vision is to make subscription information clearer for Arabic- and English-speaking visitors. The site aims for readable copy in both languages and direct links to the page that answers a visitor’s question, rather than repeating the same text across many pages.",
+        "Visitors should be able to understand the stated option and what they may need to verify before deciding. When reliable information becomes available or details change, the relevant page should be updated so the Arabic and English versions remain consistent."
+      ]
+    },
+    {
+      "heading": "Why Lingora?",
+      "paragraphs": [
+        "The stated scope is Duolingo Super in individual and group options. The group option is not discounted, and Duolingo Max is a different product that Lingora does not offer. Max is mentioned only to explain the distinction, not as an available Lingora option.",
+        "The site is available in Arabic and English, and owner-provided details are stated plainly instead of overstating features or availability. Lingora does not claim official affiliation with Duolingo or active automated payments; check the relevant offer page for price, availability, and redemption details before relying on them."
+      ]
+    },
+    {
+      "heading": "Contact Lingora",
+      "paragraphs": [
+        "For general enquiries, call +966554751363 or email info@lingora.com. For sales enquiries, use sales@lingora.com. Do not send passwords or verification codes by email or phone."
+      ]
+    }
+  ],
+  "faqs": [],
+  "publishBlockers": [],
+  "slug": "about",
+  "intentType": "brand-investigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Owner-confirmed: Lingora offers individual and Family Duolingo Super, the Family option is not discounted, Max is not offered, and the phone and public email addresses are provided by the owner. Brand mission/vision copy is editorial positioning requested by the owner; it makes no claim of official affiliation or guaranteed fulfillment.",
+  "sourcesChecked": [
+    "Owner confirmation in chat, 2026-10-13 (Super options, discount, Max availability, phone, and email).",
+    "Owner-directed editorial copy for Lingora purpose, vision, and reasons to choose Lingora, 2026-10-13."
+  ],
+  "title": "About Lingora: Our Mission, Vision & Contact | Lingora",
+  "description": "Learn about Lingora’s mission, vision, Duolingo Super focus, why it distinguishes Family and Max, and our public contact details.",
+  "publicationState": "draft",
+  "searchIntent": {
+    "stage": "brand-investigation",
+    "userNeed": "I want to understand Lingora’s purpose, stated options, and public contact channels.",
+    "pageJob": "Explain the brand purpose and scope, and provide contact details without unsupported affiliation or fulfillment claims.",
+    "distinctFrom": "Introduces Lingora; the Plans page owns offer terms and the Payment Methods page owns payment instructions.",
+    "researchStatus": "source-backed"
+  }
+}

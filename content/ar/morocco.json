@@ -1,0 +1,72 @@
+{
+  "locale": "ar",
+  "route": "/morocco/",
+  "pageType": "market-hub",
+  "status": "RESEARCH ONLY — excluded from public routes pending distinct local evidence",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "RESEARCH ONLY — candidate query, not an active page owner; no tool metrics",
+    "primaryKeyword": "Duolingo Super المغرب",
+    "shortTail": ["Duolingo Super المغرب", "اشتراك دولينجو المغرب"],
+    "longTail": [
+      "معلومات رابط Duolingo Super في المغرب",
+      "التحقق من شروط Duolingo Super للمتعلمين في المغرب"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Search-intent hypothesis only. Requires local-source evidence and real keyword-tool data before reactivation."
+  },
+  "h1": "Duolingo Super المغرب: معلومات أولية",
+  "intro": "تجمع صفحة المغرب الأسئلة التي تحتاج إلى مصدر محلي قبل النشر، وتساعد القارئ على مراجعة وصف الرابط من دون ادعاء توافر خدمة بعينها.",
+  "sections": [
+    {
+      "heading": "تحقق من المعلومات قبل الاعتماد",
+      "paragraphs": [
+        "اقرأ مدة العرض وطريقة الاستلام والشروط المكتوبة. ينبغي أن يكون السعر النهائي واضحًا قبل الطلب، وأن تكون تفاصيل الدعم قابلة للتنفيذ، لا مجرد وعود عامة."
+      ]
+    },
+    {
+      "heading": "سياق محلي يحتاج إلى بحث",
+      "paragraphs": [
+        "على فريق المحتوى جمع وسيلة الدفع المقبولة وشروط الإفصاح التجاري والدعم من مصدر موثق للمغرب. لا تملأ هذه الخانات بتخمين أو بتحويل عملة غير معتمد."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "هل السعر بالدرهم المغربي؟",
+      "answer": "لم يعتمد تسعير محلي للمغرب؛ يجب إبقاء أي مبلغ خارج الصفحة حتى يقرره المالك."
+    }
+  ],
+  "publishBlockers": [
+    "TO RESEARCH: unique, verified local context required before release.",
+    "لا توجد ادعاءات عن طرق الدفع أو الأسعار المحلية.",
+    "لا يُصدّر المسار العام حتى تتوفر معلومة محلية فريدة بمصدر وتاريخ مراجعة.",
+    "لا تنشئ صفحة دولة بتبديل اسم البلد أو تكرار قائمة التحقق؛ ادمجها ما لم تضف قيمة محلية.",
+    "أسعار ووسائل الدفع والضرائب والدعم القانوني في هذا السوق غير موثقة."
+  ],
+  "slug": "morocco",
+  "intentType": "local-commercial-investigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Duolingo Super المغرب: دليل المراجعة | Lingora",
+  "description": "مسودة أولية للمتعلمين في المغرب عن رابط Duolingo Super؛ الأسعار ووسائل الدفع وسياسات الاسترداد المحلية لم تعتمد. تخضع هذه المسودة لمراجعة المصادر قبل النشر",
+  "publicationState": "research-only",
+  "searchIntent": {
+    "stage": "local-commercial-investigation",
+    "userNeed": "يريد الباحث في المغرب التحقق من السعر والتسليم والدفع والشروط المحلية الفعلية قبل اتخاذ قرار.",
+    "pageJob": "لا تُنشر هذه الصفحة أو تُصدّر حتى يتوفر دليل محلي فريد ومؤرخ، وإجابة فعلية مختلفة عن بقية الأسواق.",
+    "distinctFrom": "لا تستبدل اسم الدولة في نص عام؛ يجب أن تضيف معلومة محلية موثقة واستخدامًا محليًا مفيدًا أو تُدمج في صفحة إقليمية واحدة.",
+    "researchStatus": "blocked"
+  }
+}

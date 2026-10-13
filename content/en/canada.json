@@ -1,0 +1,72 @@
+{
+  "locale": "en",
+  "route": "/en/canada/",
+  "pageType": "market-hub",
+  "status": "RESEARCH ONLY — excluded from public routes pending distinct local evidence",
+  "indexable": false,
+  "targetWords": 800,
+  "keywordResearch": {
+    "status": "RESEARCH ONLY — candidate query, not an active page owner; no tool metrics",
+    "primaryKeyword": "Duolingo Super in Canada",
+    "shortTail": ["Duolingo Super Canada", "Duolingo Super Canada link"],
+    "longTail": [
+      "12 month Duolingo Super redeem link for Canada",
+      "what Canadian buyers should check on a Duolingo Super offer"
+    ],
+    "volume": null,
+    "difficulty": null,
+    "searchConsole": {
+      "clicks": null,
+      "impressions": null,
+      "ctr": null,
+      "position": null
+    },
+    "source": "Search-intent hypothesis only. Requires local-source evidence and real keyword-tool data before reactivation."
+  },
+  "h1": "Duolingo Super in Canada: offer checklist",
+  "intro": "This Canada draft helps readers identify the offer details they should verify. It avoids unsupported claims about Canadian prices, payment options, taxes, or delivery.",
+  "sections": [
+    {
+      "heading": "Read the duration and source",
+      "paragraphs": [
+        "Look for a clear statement of the link term, source, redemption conditions, and support contact. The specific offer should carry enough information for a reader to understand what is being provided."
+      ]
+    },
+    {
+      "heading": "Do not infer the local price",
+      "paragraphs": [
+        "No Canada-specific charge or currency has been approved in the project brief. Keep any conversion informational and clearly separate from checkout until the owner approves a price policy."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Canadian pricing available yet?",
+      "answer": "No verified Canada-specific checkout price has been provided for this draft."
+    }
+  ],
+  "publishBlockers": [
+    "TO RESEARCH: unique, verified local context required before release.",
+    "No local payment or price claims are made.",
+    "لا يُصدّر المسار العام حتى تتوفر معلومة محلية فريدة بمصدر وتاريخ مراجعة.",
+    "لا تنشئ صفحة دولة بتبديل اسم البلد أو تكرار قائمة التحقق؛ ادمجها ما لم تضف قيمة محلية.",
+    "أسعار ووسائل الدفع والضرائب والدعم القانوني في هذا السوق غير موثقة."
+  ],
+  "slug": "canada",
+  "intentType": "local-commercial-investigation",
+  "lastVerified": "2026-10-13",
+  "verificationStatus": "Draft generated from the prompt only; not independently fact-verified.",
+  "sourcesChecked": [
+    "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
+  ],
+  "title": "Duolingo Super in Canada: Offer Checklist | Lingora",
+  "description": "A draft checklist for Canadian readers reviewing a Duolingo Super link. Local pricing, payment availability, and support conditions await evidence.",
+  "publicationState": "research-only",
+  "searchIntent": {
+    "stage": "local-commercial-investigation",
+    "userNeed": "يريد الباحث في Canada التحقق من السعر والتسليم والدفع والشروط المحلية الفعلية قبل اتخاذ قرار.",
+    "pageJob": "لا تُنشر هذه الصفحة أو تُصدّر حتى يتوفر دليل محلي فريد ومؤرخ، وإجابة فعلية مختلفة عن بقية الأسواق.",
+    "distinctFrom": "لا تستبدل اسم الدولة في نص عام؛ يجب أن تضيف معلومة محلية موثقة واستخدامًا محليًا مفيدًا أو تُدمج في صفحة إقليمية واحدة.",
+    "researchStatus": "blocked"
+  }
+}
