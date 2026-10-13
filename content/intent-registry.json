@@ -1,0 +1,100 @@
+[
+  {
+    "intentId": "ar:/",
+    "locale": "ar",
+    "route": "/",
+    "primaryKeyword": "Lingora Duolingo Super",
+    "angle": null
+  },
+  {
+    "intentId": "ar:/about/",
+    "locale": "ar",
+    "route": "/about/",
+    "primaryKeyword": "عن Lingora",
+    "angle": null
+  },
+  {
+    "intentId": "ar:/disclaimer/",
+    "locale": "ar",
+    "route": "/disclaimer/",
+    "primaryKeyword": "إخلاء مسؤولية",
+    "angle": null
+  },
+  {
+    "intentId": "ar:/payment-methods/",
+    "locale": "ar",
+    "route": "/payment-methods/",
+    "primaryKeyword": "طرق الدفع لدى Lingora",
+    "angle": null
+  },
+  {
+    "intentId": "ar:/privacy/",
+    "locale": "ar",
+    "route": "/privacy/",
+    "primaryKeyword": "سياسة الخصوصية",
+    "angle": null
+  },
+  {
+    "intentId": "ar:/refund/",
+    "locale": "ar",
+    "route": "/refund/",
+    "primaryKeyword": "سياسة استرداد المبلغ",
+    "angle": null
+  },
+  {
+    "intentId": "ar:/subscription/",
+    "locale": "ar",
+    "route": "/subscription/",
+    "primaryKeyword": "اشتراك Duolingo Super لمدة 12 شهرًا",
+    "angle": null
+  },
+  {
+    "intentId": "en:/en/",
+    "locale": "en",
+    "route": "/en/",
+    "primaryKeyword": "Lingora Duolingo Super",
+    "angle": null
+  },
+  {
+    "intentId": "en:/en/about/",
+    "locale": "en",
+    "route": "/en/about/",
+    "primaryKeyword": "About Lingora",
+    "angle": null
+  },
+  {
+    "intentId": "en:/en/disclaimer/",
+    "locale": "en",
+    "route": "/en/disclaimer/",
+    "primaryKeyword": "reseller disclaimer",
+    "angle": null
+  },
+  {
+    "intentId": "en:/en/payment-methods/",
+    "locale": "en",
+    "route": "/en/payment-methods/",
+    "primaryKeyword": "Lingora payment methods",
+    "angle": null
+  },
+  {
+    "intentId": "en:/en/plans/",
+    "locale": "en",
+    "route": "/en/plans/",
+    "primaryKeyword": "12-month Duolingo Super link",
+    "angle": null
+  },
+  {
+    "intentId": "en:/en/privacy/",
+    "locale": "en",
+    "route": "/en/privacy/",
+    "primaryKeyword": "privacy policy",
+    "angle": null
+  },
+  {
+    "intentId": "en:/en/refund/",
+    "locale": "en",
+    "route": "/en/refund/",
+    "primaryKeyword": "refund policy",
+    "angle": null
+  }
+]

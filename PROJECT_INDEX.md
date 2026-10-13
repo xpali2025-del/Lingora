@@ -126,3 +126,17 @@
 ### خطة المحتوى العالمي — `docs/GLOBAL_CONTENT_ARCHITECTURE_PLAN.md` (إنجليزي، تنفيذي/تقني)
 
 18 سوقاً → 8 مسارات لغوية (ar/en مبنيان؛ جديد: tr, id, fr, es, de, bn؛ sw مؤجل). لا صفحات دول: وحدة بيانات `markets.json` + مقالات مدونة (موضوع + دولة + زاوية فريدة). ضوابط منع التكرار D1–D10 في CI، بوابة G-LOC قبل كل لغة، موجات: 1 عربي/إنجليزي، 2 TR/ID/FR، 3 ES/DE، 4 BN. ترتيب الأسواق فرضية بلا بيانات. لم يُنفَّذ كود منها بعد.
+
+### تنفيذ المرحلة 1 الهندسية (من GLOBAL_CONTENT_ARCHITECTURE_PLAN) — تم
+
+| البند                 | الملفات                                                                                                                                                                                                                                                                                                         |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P1-1 إعداد اللغات     | `src/i18n/locales.json` (9 لغات: ar,en live؛ fr,es,de,tr,id,bn planned؛ sw deferred)، `angles.json` (12 زاوية)، `locales.ts`. **لم تُضَف مسارات/layouts للغات الجديدة بعد** (تتم عند أول محتوى معتمد)؛ ContentPage يستخدم نصوص UI عربية/إنجليزية فقط.                                                           |
+| P1-2 Schema           | `content-schema.ts`: locale من 9 لغات، pageType: article/blog-index، حقول hreflangGroup/sourceMode/angle/localHook/uniqueFacts/sources/reviewedBy/author/dates؛ مقال يتطلب ≥3 حقائق ومصدراً ومراجعة إن كان indexable؛ market-hub منشور يتطلب ≥5 حقائق. `content.ts`: `getAllArticles` (من `content/<l>/blog/`). |
+| P1-3 الأسواق          | `content/markets.json` (18 سوقاً: عملة ISO ومسارات لغة وموجة؛ كل ما عداه null) — **بيانات فقط، لا عرض في الصفحات** حتى التحقق.                                                                                                                                                                                  |
+| P1-4 hreflang/sitemap | `src/lib/hreflang.mjs` (+d.mts) مشترك بين metadata والسكربت؛ `scripts/generate-sitemap.mjs` يولّد `out/sitemap.xml` في البناء (حُذف `public/sitemap.xml`).                                                                                                                                                      |
+| P1-5 الحوكمة          | `src/lib/content-governance.mjs` (D1,D2,D4,D5,D6,D8,D9 + markets)، `load-content.mjs`، `scripts/check-governance.mjs`، `content/intent-registry.json` (مُولَّد: `npm run registry:write`)، `tests/content-governance.test.mjs`. `check:governance` ضمن `check:all`.                                             |
+| CMS                   | مجموعتا `arabic-blog`/`english-blog` وحقول المقال في `public/admin/config.yml`.                                                                                                                                                                                                                                 |
+
+- لم يُنفَّذ: P1-6 قوالب المدونة وBlogPosting JSON-LD وصفحة الفهرس (تحتاج أول مقال)، ومسارات اللغات الجديدة، D3/D7/D10 للغات الجديدة (محتوى + محلل لكل لغة).
+- التحقق: lint, typecheck, format, build, seo:check, governance, 16 unit tests ناجحة. e2e لا يعمل في الحاوية.

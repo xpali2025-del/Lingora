@@ -130,9 +130,101 @@ collections:
           - { label: Question, name: question, widget: string }
           - { label: Answer, name: answer, widget: text }
       - { label: Publish blockers, name: publishBlockers, widget: list }
+      - {
+          label: Hreflang group,
+          name: hreflangGroup,
+          widget: string,
+          required: false,
+        }
+      - {
+          label: Source mode,
+          name: sourceMode,
+          widget: select,
+          options: [original, transcreated],
+          required: false,
+        }
+      - {
+          label: Angle (articles),
+          name: angle,
+          widget: select,
+          options:
+            [
+              exam-prep,
+              workplace,
+              study-abroad,
+              budget-plan,
+              habit-system,
+              feature-explainer,
+              plan-comparison,
+              family-learning,
+              travel-language,
+              heritage-diaspora,
+              redeem-howto,
+              myth-check,
+            ],
+          required: false,
+        }
+      - label: Local hook (articles)
+        name: localHook
+        widget: object
+        required: false
+        fields:
+          - { label: Country (ISO alpha-2), name: country, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Unique facts (min 3 for articles)
+        name: uniqueFacts
+        widget: list
+        required: false
+        fields:
+          - { label: Fact, name: fact, widget: text }
+          - { label: Source URL, name: sourceUrl, widget: string }
+          - { label: Date checked (YYYY-MM-DD), name: checked, widget: string }
+      - { label: Sources, name: sources, widget: list, required: false }
+      - label: Native review
+        name: reviewedBy
+        widget: object
+        required: false
+        fields:
+          - {
+              label: Role,
+              name: role,
+              widget: select,
+              options: [native-editor],
+            }
+          - { label: Name, name: name, widget: string }
+          - { label: Date (YYYY-MM-DD), name: date, widget: string }
+      - { label: Author, name: author, widget: string, required: false }
+      - {
+          label: Date published,
+          name: datePublished,
+          widget: string,
+          required: false,
+        }
+      - {
+          label: Date modified,
+          name: dateModified,
+          widget: string,
+          required: false,
+        }
   - name: english
     label: English content
     folder: content/en
+    create: true
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields: *content_fields
+  - name: arabic-blog
+    label: Arabic blog
+    folder: content/ar/blog
+    create: true
+    extension: json
+    format: json
+    slug: '{{slug}}'
+    fields: *content_fields
+  - name: english-blog
+    label: English blog
+    folder: content/en/blog
     create: true
     extension: json
     format: json

@@ -46,10 +46,14 @@ const labelByType: Record<
   policy: { ar: 'مسودة سياسة', en: 'Policy draft' },
   payments: { ar: 'مسودة طرق الدفع', en: 'Payment methods draft' },
   'market-hub': { ar: 'مسودة صفحة سوق', en: 'Market page draft' },
+  article: { ar: 'مقال', en: 'Article' },
+  'blog-index': { ar: 'المدونة', en: 'Blog' },
 };
 
 export function ContentPage({ content }: { content: ContentRecord }) {
   const isArabic = content.locale === 'ar';
+  // UI strings exist for ar/en only; new locales add theirs when they go live.
+  const uiLocale: 'ar' | 'en' = isArabic ? 'ar' : 'en';
   const jsonLd = buildJsonLd(content);
   const isPlansPage = content.pageType === 'plans';
   const isContactPage = content.pageType === 'about';
@@ -81,7 +85,7 @@ export function ContentPage({ content }: { content: ContentRecord }) {
       <Container>
         <div className="content-kicker">
           <span className="content-kicker-dot" />
-          {labelByType[content.pageType][content.locale]}
+          {labelByType[content.pageType][uiLocale]}
         </div>
         <h1>
           <BrandText text={content.h1} />
@@ -184,22 +188,21 @@ export function ContentPage({ content }: { content: ContentRecord }) {
             aria-labelledby="product-facts-heading"
           >
             <h2 id="product-facts-heading">
-              <BrandText text={productFacts[content.locale].heading} />
+              <BrandText text={productFacts[uiLocale].heading} />
             </h2>
             <ul>
-              {productFacts[content.locale].facts.map((fact) => (
+              {productFacts[uiLocale].facts.map((fact) => (
                 <li key={fact}>
                   <BrandText text={fact} />
                 </li>
               ))}
             </ul>
-            <p>{productFacts[content.locale].note}</p>
+            <p>{productFacts[uiLocale].note}</p>
             <a href={productFacts.sourceUrl} target="_blank" rel="noreferrer">
-              {productFacts[content.locale].sourceLabel}
+              {productFacts[uiLocale].sourceLabel}
             </a>
             <small>
-              {productFacts[content.locale].checkedLabel}:{' '}
-              {productFacts.lastChecked}
+              {productFacts[uiLocale].checkedLabel}: {productFacts.lastChecked}
             </small>
           </section>
         )}

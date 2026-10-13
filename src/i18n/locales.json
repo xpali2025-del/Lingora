@@ -1,0 +1,74 @@
+[
+  {
+    "code": "ar",
+    "dir": "rtl",
+    "hrefPrefix": "",
+    "ogLocale": "ar_AR",
+    "status": "live",
+    "markets": ["SA", "YE", "EG", "BH", "QA", "MA"]
+  },
+  {
+    "code": "en",
+    "dir": "ltr",
+    "hrefPrefix": "/en",
+    "ogLocale": "en_US",
+    "status": "live",
+    "markets": ["GB", "CA", "AU", "ZA", "KE", "GH", "BD"]
+  },
+  {
+    "code": "fr",
+    "dir": "ltr",
+    "hrefPrefix": "/fr",
+    "ogLocale": "fr_FR",
+    "status": "planned",
+    "markets": ["FR", "MA"]
+  },
+  {
+    "code": "es",
+    "dir": "ltr",
+    "hrefPrefix": "/es",
+    "ogLocale": "es_ES",
+    "status": "planned",
+    "markets": ["ES"]
+  },
+  {
+    "code": "de",
+    "dir": "ltr",
+    "hrefPrefix": "/de",
+    "ogLocale": "de_DE",
+    "status": "planned",
+    "markets": ["DE"]
+  },
+  {
+    "code": "tr",
+    "dir": "ltr",
+    "hrefPrefix": "/tr",
+    "ogLocale": "tr_TR",
+    "status": "planned",
+    "markets": ["TR"]
+  },
+  {
+    "code": "id",
+    "dir": "ltr",
+    "hrefPrefix": "/id",
+    "ogLocale": "id_ID",
+    "status": "planned",
+    "markets": ["ID"]
+  },
+  {
+    "code": "bn",
+    "dir": "ltr",
+    "hrefPrefix": "/bn",
+    "ogLocale": "bn_BD",
+    "status": "planned",
+    "markets": ["BD"]
+  },
+  {
+    "code": "sw",
+    "dir": "ltr",
+    "hrefPrefix": "/sw",
+    "ogLocale": "sw_KE",
+    "status": "deferred",
+    "markets": ["KE"]
+  }
+]
