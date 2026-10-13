@@ -1,6 +1,6 @@
 # Conflicts & Source Gaps — Lingora
 
-Status: **Reviewed at GATE-0; source gap SG-01 remains open.** Source of current register: `docs/Lingora_SDD_Engineering_Prompt.md` only. The Architecture Plan v1.1 (`.docx`) and Keywords & Content Workbook (`.xlsx`) were not present in the workspace; no claims below imply those files were reviewed.
+Status: **Reviewed at GATE-0; SG-01 partially closed on 2026-10-13 (Keywords & Content Workbook received; Architecture Plan still absent).** Source of current register: `docs/Lingora_SDD_Engineering_Prompt.md` only. The Architecture Plan v1.1 (`.docx`) and Keywords & Content Workbook (`.xlsx`) were not present in the workspace; no claims below imply those files were reviewed.
 
 ## Known conflicts from the engineering prompt
 
@@ -13,9 +13,9 @@ Status: **Reviewed at GATE-0; source gap SG-01 remains open.** Source of current
 
 ## Source gap
 
-| ID    | Gap                                                                    | Impact / handling                                                                                                                                                                                                                                                                                                                                       |
-| ----- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SG-01 | The Architecture Plan v1.1 and Keywords & Content Workbook are absent. | Prompt-only draft is possible, but source-derived details (page metadata, keyword assignments, FAQs, topic ownership, legal draft text, hreflang map, and plan-specific architecture) remain unverified. Keep affected requirements provisional; do not invent/import data. Reconcile before the relevant phase is approved for implementation/release. |
+| ID    | Gap                                                                                                                                                       | Impact / handling                                                                                                                                                                                                                                                                                                                                             |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SG-01 | The Architecture Plan v1.1 is absent. The Keywords & Content Workbook (`Lingora_Keywords_Content_Workbook.xlsx`) was received on 2026-10-13 and reviewed. | Workbook: volume/difficulty are blank (no data). Imported only safe keyword variants, neutral FAQs and the Arabic spelling دولينجو; excluded discount-code, no-personal-data, unverified fulfilment/refund answers and per-country prices (conflict C1). Plan-dependent details (hreflang map, legal text, architecture) remain unverified; keep provisional. |
 
 ## Newly discovered conflicts
 

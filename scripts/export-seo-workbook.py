@@ -150,6 +150,9 @@ for record in records:
         ('Primary', [record['keywordResearch']['primaryKeyword']]),
         ('Short-tail', record['keywordResearch']['shortTail']),
         ('Long-tail', record['keywordResearch']['longTail']),
+        ('Synonym', record['keywordResearch'].get('synonyms', [])),
+        ('Semantic term', record['keywordResearch'].get('semanticTerms', [])),
+        ('Restricted term', record['keywordResearch'].get('restrictedTerms', [])),
     ]:
         for phrase in values:
             active_owner = (

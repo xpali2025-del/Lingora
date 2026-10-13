@@ -31,6 +31,24 @@ export function getAllContent(
     .sort((a, b) => a.route.localeCompare(b.route));
 }
 
+export function getAllArticles(locale: Locale): ContentRecord[] {
+  const directory = join(process.cwd(), 'content', locale, 'blog');
+  let files: string[];
+  try {
+    files = readdirSync(directory).filter((file) => file.endsWith('.json'));
+  } catch {
+    return [];
+  }
+  return files
+    .map((file) =>
+      ContentRecordSchema.parse(
+        JSON.parse(readFileSync(join(directory, file), 'utf8')) as unknown,
+      ),
+    )
+    .filter((record) => record.pageType === 'article')
+    .sort((a, b) => a.route.localeCompare(b.route));
+}
+
 export function getContentByRoute(
   locale: Locale,
   route: string,

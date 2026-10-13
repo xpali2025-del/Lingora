@@ -1,0 +1,203 @@
+{
+  "_note": "Informational market data only. Prices stay per-track (SAR 50 / USD 15, see specs/CONFLICTS.md C1). Null means unverified; never fill from assumptions. paymentRails requires lastVerified.",
+  "markets": [
+    {
+      "country": "SA",
+      "currency": "SAR",
+      "tracks": ["ar"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "YE",
+      "currency": "YER",
+      "tracks": ["ar"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "EG",
+      "currency": "EGP",
+      "tracks": ["ar"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "BH",
+      "currency": "BHD",
+      "tracks": ["ar"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "QA",
+      "currency": "QAR",
+      "tracks": ["ar"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "MA",
+      "currency": "MAD",
+      "tracks": ["ar", "fr"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "GB",
+      "currency": "GBP",
+      "tracks": ["en"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "CA",
+      "currency": "CAD",
+      "tracks": ["en"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "AU",
+      "currency": "AUD",
+      "tracks": ["en"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "ZA",
+      "currency": "ZAR",
+      "tracks": ["en"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "KE",
+      "currency": "KES",
+      "tracks": ["en", "sw"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "GH",
+      "currency": "GHS",
+      "tracks": ["en"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "BD",
+      "currency": "BDT",
+      "tracks": ["en", "bn"],
+      "wave": 1,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "TR",
+      "currency": "TRY",
+      "tracks": ["tr"],
+      "wave": 2,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "ID",
+      "currency": "IDR",
+      "tracks": ["id"],
+      "wave": 2,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "FR",
+      "currency": "EUR",
+      "tracks": ["fr"],
+      "wave": 2,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "ES",
+      "currency": "EUR",
+      "tracks": ["es"],
+      "wave": 3,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    },
+    {
+      "country": "DE",
+      "currency": "EUR",
+      "tracks": ["de"],
+      "wave": 3,
+      "status": "research-only",
+      "paymentRails": null,
+      "supportLanguages": null,
+      "consumerLawNote": null,
+      "lastVerified": null
+    }
+  ]
+}

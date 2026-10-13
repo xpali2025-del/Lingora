@@ -18,6 +18,22 @@
       "what happens if a paid order has no link",
       "how to request order support from Lingora"
     ],
+    "synonyms": [
+      "Lingora refund",
+      "Lingora cancellation policy",
+      "Lingora refund request",
+      "Lingora return policy",
+      "Duolingo Super refund",
+      "invalid link",
+      "Duolingo Super redeem link not working"
+    ],
+    "semanticTerms": [
+      "cancellation",
+      "failed redemption",
+      "refund window",
+      "support response",
+      "refund eligibility"
+    ],
     "volume": null,
     "difficulty": null,
     "searchConsole": {
@@ -68,7 +84,7 @@
     "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
   ],
   "title": "Refund Policy: Terms Awaiting Approval | Lingora",
-  "description": "Refund timing, eligibility, exclusions, and support response times have not been approved. This page is a draft placeholder, not a promise of a refund.",
+  "description": "Lingora’s refund and cancellation policy: who can ask, time limits and help if a link will not redeem. Final terms are awaiting approval.",
   "publicationState": "draft",
   "searchIntent": {
     "stage": "policy-informational",

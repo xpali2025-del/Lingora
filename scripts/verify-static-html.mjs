@@ -22,7 +22,7 @@ walk('out');
 for (const path of htmlFiles) {
   const html = readFileSync(path, 'utf8');
   if (
-    /<script\b|<link\b(?=[^>]*\bas=["']script["'])|<link\b(?=[^>]*\brel=["']modulepreload["'])/i.test(
+    /<script\b(?![^>]*type=["']application\/ld\+json["'])|<link\b(?=[^>]*\bas=["']script["'])|<link\b(?=[^>]*\brel=["']modulepreload["'])/i.test(
       html,
     )
   ) {

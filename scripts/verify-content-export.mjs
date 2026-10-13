@@ -116,7 +116,38 @@ for (const record of publicDrafts) {
         );
     }
   }
-  if (/<script\b|<link\b(?=[^>]*\bas=["']script["'])/i.test(html))
+  const jsonLdBlocks = [
+    ...html.matchAll(
+      /<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi,
+    ),
+  ];
+  if (record.indexable) {
+    if (jsonLdBlocks.length !== 1)
+      failures.push(
+        `${label}: expected exactly one JSON-LD block, found ${jsonLdBlocks.length}.`,
+      );
+    else {
+      try {
+        const data = JSON.parse(jsonLdBlocks[0][1]);
+        const types = (data['@graph'] ?? []).map((node) => node['@type']);
+        for (const required of ['Organization', 'BreadcrumbList'])
+          if (!types.includes(required))
+            failures.push(`${label}: JSON-LD is missing ${required}.`);
+        if (!types.includes('WebPage') && !types.includes('AboutPage'))
+          failures.push(`${label}: JSON-LD is missing a page node.`);
+      } catch {
+        failures.push(`${label}: JSON-LD block is not valid JSON.`);
+      }
+    }
+  } else if (jsonLdBlocks.length > 0)
+    failures.push(`${label}: noindex draft pages must not carry JSON-LD.`);
+  if (!/<meta\s+property="og:title"/i.test(html))
+    failures.push(`${label}: missing Open Graph title.`);
+  if (
+    /<script\b(?![^>]*type=["']application\/ld\+json["'])|<link\b(?=[^>]*\bas=["']script["'])/i.test(
+      html,
+    )
+  )
     failures.push(
       `${label}: unnecessary client script found in static draft page.`,
     );

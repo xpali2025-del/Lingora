@@ -60,6 +60,36 @@ for (const record of records) {
   const { locale, route, title, description, h1, keywordResearch } = record;
   const page = `${locale}:${route}`;
   const intent = record.searchIntent;
+  if (record.publicationState !== 'research-only') {
+    const synonyms = keywordResearch.synonyms ?? [];
+    const semanticTerms = keywordResearch.semanticTerms ?? [];
+    if (synonyms.length < 3 || semanticTerms.length < 3)
+      failures.push(
+        `${page}: add at least 3 synonyms and 3 semantic terms to keywordResearch.`,
+      );
+    const visibleText = [
+      record.title,
+      record.description,
+      record.h1,
+      record.intro,
+      ...record.sections.flatMap((s) => [s.heading, ...s.paragraphs]),
+      ...record.faqs.flatMap((f) => [f.question, f.answer]),
+    ]
+      .join(' ')
+      .toLowerCase();
+    for (const term of keywordResearch.restrictedTerms ?? [])
+      if (visibleText.includes(term.toLowerCase()))
+        failures.push(
+          `${page}: restricted term "${term}" must not appear in visible copy.`,
+        );
+    const seen = new Set();
+    for (const term of [keywordResearch.primaryKeyword, ...synonyms]) {
+      const key = term.trim().toLowerCase();
+      if (seen.has(key))
+        failures.push(`${page}: duplicate keyword variant "${term}".`);
+      seen.add(key);
+    }
+  }
   const intendedIndexableAbout =
     (locale === 'ar' && route === '/about/') ||
     (locale === 'en' && route === '/en/about/');

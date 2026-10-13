@@ -18,6 +18,36 @@
       "What should a Duolingo Super link offer disclose",
       "What to do if a Super redeem link does not work"
     ],
+    "synonyms": [
+      "annual Duolingo Super link",
+      "yearly Duolingo Super",
+      "1-year Duolingo Super subscription",
+      "Duolingo Super 12 months redeem link",
+      "Duolingo Super activation link",
+      "Duolingo Super price",
+      "Duolingo Super features",
+      "activation link",
+      "Super plan",
+      "how to redeem a Duolingo Super code",
+      "Duolingo premium subscription",
+      "Duolingo Super family",
+      "Duolingo Super annual plan"
+    ],
+    "semanticTerms": [
+      "redeem",
+      "activate",
+      "subscription term",
+      "Family plan",
+      "individual plan",
+      "support",
+      "failed redemption",
+      "Super vs Max",
+      "ads",
+      "unlimited hearts",
+      "Practice Hub",
+      "free vs Super",
+      "renewal"
+    ],
     "volume": null,
     "difficulty": null,
     "searchConsole": {
@@ -26,7 +56,14 @@
       "ctr": null,
       "position": null
     },
-    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data."
+    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data.",
+    "restrictedTerms": [
+      "discount code link",
+      "voucher-style code",
+      "Duolingo Super promo code",
+      "Duolingo Super without sharing personal details",
+      "Duolingo Super deal"
+    ]
   },
   "h1": "12-month Duolingo Super link: what to verify first",
   "intro": "The owner confirms that Lingora offers Duolingo Super in individual or Family options; the Family option is not discounted. Lingora does not offer Duolingo Max; it is mentioned only to distinguish the products. This draft does not confirm price, stock, live payment, or fulfilment.",
@@ -113,6 +150,10 @@
     {
       "question": "Does the Duolingo Super Family option receive a discount?",
       "answer": "No. The owner confirms that the Family option is not discounted."
+    },
+    {
+      "question": "How does the free Duolingo app differ from Super?",
+      "answer": "Duolingo’s own guide describes Super as an ad-free experience with unlimited hearts and extra practice options. Check the features shown in your account before deciding, because they can change and Lingora does not guarantee them."
     }
   ],
   "publishBlockers": [
@@ -128,7 +169,7 @@
     "Owner confirmation in chat, 2026-10-13 (plan options, Family discount, and Max availability)."
   ],
   "title": "12-Month Duolingo Super Link: Buyer Checklist | Lingora",
-  "description": "A draft checklist for reviewing the stated term, source, redemption conditions, and support details of a 12-month Duolingo Super link.",
+  "description": "A buyer’s guide to a 12-month Duolingo Super link: check the term, redemption conditions and support before you decide to subscribe.",
   "publicationState": "draft",
   "searchIntent": {
     "stage": "transactional",

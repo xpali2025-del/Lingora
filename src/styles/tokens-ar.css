@@ -1,9 +1,16 @@
 :root:lang(ar) {
   --font-body: 'IBM Plex Sans Arabic', 'Inter Variable', system-ui, sans-serif;
-  --color-background: #f7f5f0;
-  --color-foreground: #20231f;
-  --color-muted: #626a63;
-  --color-border: #dedfd7;
-  --color-accent: #343a35;
-  --color-focus: #885900;
+  --color-background: #f7f9f6;
+  --color-foreground: #202a24;
+  --color-muted: #68756d;
+  --color-muted-strong: #4f5c54;
+  --color-border: #dfe7e0;
+  --color-accent: #42634b;
+  --color-focus: #2f6b3f;
+  --color-surface: #fff;
+  --color-sage: #dce9dc;
+  --color-lavender: #eeeafa;
+  --color-peach: #fff0e5;
+  --radius-card: 1rem;
+  --shadow-card: 0 12px 38px rgb(43 59 46 / 5.5%);
 }

@@ -1,0 +1,7 @@
+node_modules/
+out/
+.next/
+.size-budget/
+__pycache__/
+*.pyc
+tsconfig.tsbuildinfo

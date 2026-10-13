@@ -18,6 +18,23 @@
       "Can I pay Lingora with USDT on BEP20",
       "Which payment methods can Gulf customers use with Lingora"
     ],
+    "synonyms": [
+      "Lingora how to pay",
+      "Lingora payment options",
+      "Lingora bank transfer",
+      "Lingora checkout methods"
+    ],
+    "semanticTerms": [
+      "Kuraimi",
+      "Haseb",
+      "mobile wallet",
+      "Mada",
+      "Visa",
+      "USDT",
+      "BEP20",
+      "Yemen",
+      "Gulf"
+    ],
     "volume": null,
     "difficulty": null,
     "searchConsole": {
@@ -138,7 +155,7 @@
     "User-supplied payment details in the conversation, 2026-10-13; gateway and wallet settlement not independently verified."
   ],
   "title": "Lingora payment methods in Yemen and the Gulf | Lingora",
-  "description": "Review Lingora payment methods: Yemen bank accounts and wallets, Mada, Visa or Gulf transfers, and USDT on BEP20. Verify the address before sending.",
+  "description": "Lingora payment methods: Yemen bank accounts and wallets, Mada, Visa or Gulf transfers, plus how to verify details before any transfer.",
   "publicationState": "draft",
   "searchIntent": {
     "stage": "transactional-payment-information",

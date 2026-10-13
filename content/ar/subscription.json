@@ -18,6 +18,34 @@
       "ما شروط استبدال اشتراك Duolingo Super لمدة سنة",
       "ما الذي يجب أن توضحه صفحة بيع رابط Duolingo Super"
     ],
+    "synonyms": [
+      "اشتراك دولينجو سوبر سنة",
+      "اشتراك سوبر دولينجو سنوي",
+      "رابط تفعيل Duolingo Super",
+      "كود استبدال Duolingo Super",
+      "باقة Duolingo Super 12 شهرًا",
+      "رابط تفعيل دولينجو",
+      "كود تفعيل دولينجو سوبر",
+      "اشتراك سنوي دولينجو",
+      "سعر دولينجو سوبر",
+      "مزايا دولينجو سوبر",
+      "دولينجو سوبر العائلي",
+      "اشتراك دولينجو بريميوم"
+    ],
+    "semanticTerms": [
+      "تفعيل",
+      "استبدال",
+      "مدة الاشتراك",
+      "فردي",
+      "عائلي",
+      "الدعم الفني",
+      "فشل الاستبدال",
+      "الإعلانات",
+      "القلوب غير المحدودة",
+      "Practice Hub",
+      "مجاني مقابل Super",
+      "تجديد الاشتراك"
+    ],
     "volume": null,
     "difficulty": null,
     "searchConsole": {
@@ -26,10 +54,16 @@
       "ctr": null,
       "position": null
     },
-    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data."
+    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data.",
+    "restrictedTerms": [
+      "طريقة تفعيل دولينجو سوبر برابط كود الخصم",
+      "كود دولينجو سوبر مجاني",
+      "عروض دولينجو سوبر",
+      "تخفيض دولينجو سوبر"
+    ]
   },
   "h1": "اشتراك Duolingo Super لمدة 12 شهرًا: ما الذي تتحقق منه؟",
-  "intro": "بحسب تأكيد المالك، تقدم Lingora اشتراك Duolingo Super بخيار فردي أو عائلي، ولا يشمل الخصم الخيار العائلي. لا تقدم Lingora Duolingo Max؛ يرد اسمه فقط للتفريق بين المنتجين. هذه المسودة لا تؤكد السعر أو المخزون أو تفعيل الدفع والتسليم.",
+  "intro": "بحسب تأكيد المالك، تقدم Lingora اشتراك Duolingo Super (دولينجو سوبر) بخيار فردي أو عائلي، ولا يشمل الخصم الخيار العائلي. لا تقدم Lingora Duolingo Max؛ يرد اسمه فقط للتفريق بين المنتجين. هذه المسودة لا تؤكد السعر أو المخزون أو تفعيل الدفع والتسليم.",
   "sections": [
     {
       "heading": "ما الذي تعنيه مدة 12 شهرًا؟",
@@ -113,6 +147,10 @@
     {
       "question": "هل يشمل الخصم خيار Duolingo Super العائلي؟",
       "answer": "لا؛ بحسب المعلومات التي أكدها المالك، الخيار العائلي لا يشمله الخصم."
+    },
+    {
+      "question": "ما الفرق بين دولينجو المجاني وSuper؟",
+      "answer": "تصف صفحة Duolingo الرسمية Super بتجربة دروس بلا إعلانات وقلوب غير محدودة مع خيارات تدريب إضافية. تأكد من الميزات الظاهرة داخل حسابك قبل القرار، فقد تتغير ولا تضمنها Lingora."
     }
   ],
   "publishBlockers": [
@@ -129,7 +167,7 @@
     "Owner confirmation in chat, 2026-10-13 (plan options, Family discount, and Max availability)."
   ],
   "title": "اشتراك Duolingo Super لمدة 12 شهرًا | Lingora",
-  "description": "مسودة دليل اشتراك Duolingo Super لمدة 12 شهرًا: راجع مصدر الرابط ومدته وشروط الاستبدال وأي تفاصيل قبل اعتماد الطلب. تخضع هذه المسودة لمراجعة المصادر قبل ال",
+  "description": "دليل اشتراك Duolingo Super لمدة 12 شهرًا: راجع مدة الرابط وشروط الاستبدال والدعم، وما يجب التحقق منه في حسابك قبل الاشتراك.",
   "publicationState": "draft",
   "searchIntent": {
     "stage": "transactional",

@@ -1,0 +1,6 @@
+node_modules
+out
+.next
+.size-budget
+next-env.d.ts
+docs/Lingora_SDD_Engineering_Prompt.md

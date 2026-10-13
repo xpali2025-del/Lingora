@@ -18,6 +18,32 @@
       "هل Lingora جهة مستقلة عن Duolingo",
       "كيف أراجع معلومات عرض Lingora قبل الاشتراك"
     ],
+    "synonyms": [
+      "لينجورا",
+      "لينغورا",
+      "لينجورا دولينجو سوبر",
+      "Lingora دولينجو",
+      "دوولينجو سوبر",
+      "ديولينجو سوبر",
+      "باقة دولينجو سوبر",
+      "عضوية دولينجو سوبر",
+      "اشتراك دولينجو سوبر",
+      "دولينجو بريميوم",
+      "دولينجو سوبر عائلي",
+      "تعلم الإنجليزية",
+      "تعلم لغة جديدة"
+    ],
+    "semanticTerms": [
+      "دولينجو سوبر",
+      "اشتراك فردي",
+      "اشتراك عائلي",
+      "بائع مستقل",
+      "رابط استبدال",
+      "تعلم اللغات",
+      "Duolingo Max",
+      "حساب Duolingo",
+      "هدية تعليمية"
+    ],
     "volume": null,
     "difficulty": null,
     "searchConsole": {
@@ -26,10 +52,17 @@
       "ctr": null,
       "position": null
     },
-    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data."
+    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data.",
+    "restrictedTerms": [
+      "كود خصم دولينجو",
+      "كوبون دولينجو سوبر",
+      "اشتراك دولينجو سوبر رخيص",
+      "شراء دولينجو سوبر بدون بيانات شخصية",
+      "شراء دولينجو سوبر بدون ايميل"
+    ]
   },
   "h1": "Lingora Duolingo Super: افهم العرض قبل المتابعة",
-  "intro": "تعرض Lingora اشتراك Duolingo Super بخيار فردي أو عائلي، ولا يشمل الخصم الخيار العائلي. لا تقدم Lingora Duolingo Max؛ يرد اسمه هنا للتفريق عن Super فقط. هذه نسخة مسودة ولا تؤكد تفعيل الطلب أو الدفع أو التسليم.",
+  "intro": "تعرض Lingora اشتراك Duolingo Super (دولينجو سوبر) بخيار فردي أو عائلي، ولا يشمل الخصم الخيار العائلي. لا تقدم Lingora Duolingo Max؛ يرد اسمه هنا للتفريق عن Super فقط. هذه نسخة مسودة ولا تؤكد تفعيل الطلب أو الدفع أو التسليم.",
   "sections": [
     {
       "heading": "ابدأ من السؤال الذي تريد إجابته",
@@ -61,6 +94,10 @@
     {
       "question": "كيف أعرف إن كان العرض مناسبًا؟",
       "answer": "راجع وصف الرابط وشروط الاستبدال والمدة ومصدر العرض. لا تعتمد على مزايا أو وعود غير موثقة."
+    },
+    {
+      "question": "هل Lingora هي الموقع الرسمي لدولينجو؟",
+      "answer": "لا تثبت هذه الصفحة أي علاقة رسمية مع Duolingo. تقدم Lingora نفسها كبائع مستقل، وتوضح صفحة إخلاء المسؤولية حدود هذه العلاقة بعد اعتماد نصها."
     }
   ],
   "publishBlockers": [
@@ -75,7 +112,7 @@
     "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
   ],
   "title": "Lingora Duolingo Super: دليل العرض بوضوح | Lingora",
-  "description": "تعرّف إلى خيارات Duolingo Super لدى Lingora: اشتراك فردي أو عائلي، ولماذا لا يشمل الخصم الخيار العائلي. لا تقدم Lingora اشتراك Duolingo Max.",
+  "description": "تعرّف على خيارات Duolingo Super (دولينجو سوبر) لدى Lingora: اشتراك فردي أو عائلي، وما الذي توضحه الصفحة قبل أن تقرر الاستمرار.",
   "publicationState": "draft",
   "searchIntent": {
     "stage": "brand-navigation",

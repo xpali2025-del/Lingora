@@ -41,7 +41,7 @@ let inlineScripts = 0;
 for (const path of files) {
   const html = readFileSync(path, 'utf8');
   for (const match of html.matchAll(
-    /<script\b(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/gi,
+    /<script\b(?![^>]*\bsrc=)(?![^>]*type=["']application\/ld\+json["'])[^>]*>([\s\S]*?)<\/script>/gi,
   )) {
     if (!match[1].trim()) continue;
     inlineScripts += 1;

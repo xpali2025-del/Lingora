@@ -18,6 +18,29 @@
       "Is Lingora an official Duolingo reseller",
       "How to check a Lingora Duolingo Super offer"
     ],
+    "synonyms": [
+      "Lingora",
+      "Lingora Duolingo",
+      "Lingora Super",
+      "Lingora reseller",
+      "annual plan",
+      "yearly membership",
+      "buy Duolingo Super",
+      "Duolingo subscription",
+      "Duolingo premium",
+      "Duolingo Super family plan",
+      "Duolingo annual subscription"
+    ],
+    "semanticTerms": [
+      "Duolingo Super",
+      "individual plan",
+      "Family plan",
+      "independent reseller",
+      "redeem link",
+      "language learning",
+      "travel language learning",
+      "Duolingo account"
+    ],
     "volume": null,
     "difficulty": null,
     "searchConsole": {
@@ -26,7 +49,13 @@
       "ctr": null,
       "position": null
     },
-    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data."
+    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data.",
+    "restrictedTerms": [
+      "Duolingo Super discount code",
+      "Duolingo Super coupon",
+      "cheap Duolingo Super",
+      "Duolingo Super without email"
+    ]
   },
   "h1": "Lingora Duolingo Super: start with clear offer information",
   "intro": "Lingora states that it offers Duolingo Super in individual and Family options; the Family option is not discounted. Lingora does not offer Duolingo Max, which is mentioned only to distinguish it from Super. This draft does not confirm that ordering, payment, or fulfilment is live.",
@@ -61,6 +90,10 @@
     {
       "question": "Does a 12-month label confirm every condition?",
       "answer": "No. Confirm when the term starts and read any additional conditions supplied with the specific offer."
+    },
+    {
+      "question": "Is Lingora the official Duolingo website?",
+      "answer": "This page does not prove any official relationship with Duolingo. Lingora presents itself as an independent seller; the Disclaimer page explains the limits of that relationship once its wording is approved."
     }
   ],
   "publishBlockers": [
@@ -75,7 +108,7 @@
     "docs/Lingora_SDD_Engineering_Prompt.md (scope and constraints only)"
   ],
   "title": "Lingora Duolingo Super: Offer Guide | Lingora",
-  "description": "See Lingora’s stated Duolingo Super options: individual or Family, with a brief clarification that Duolingo Max is not offered.",
+  "description": "Explore Lingora’s Duolingo Super options, individual or Family, and see what this page covers before you decide whether to continue.",
   "publicationState": "draft",
   "searchIntent": {
     "stage": "brand-navigation",
