@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Fragment } from 'react';
 import { Container } from './Container';
 import type { ContentRecord } from '@/lib/content-schema';
+import { buildJsonLd, serializeJsonLd } from '@/lib/structured-data';
 import productFacts from '../../content/product-facts.json';
 
 function BrandText({ text }: { text: string }) {
@@ -49,6 +50,7 @@ const labelByType: Record<
 
 export function ContentPage({ content }: { content: ContentRecord }) {
   const isArabic = content.locale === 'ar';
+  const jsonLd = buildJsonLd(content);
   const isPlansPage = content.pageType === 'plans';
   const isContactPage = content.pageType === 'about';
   const ctaHref = isPlansPage
@@ -70,6 +72,12 @@ export function ContentPage({ content }: { content: ContentRecord }) {
 
   return (
     <main id="main-content" className="page-main content-page">
+      {jsonLd ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
+        />
+      ) : null}
       <Container>
         <div className="content-kicker">
           <span className="content-kicker-dot" />

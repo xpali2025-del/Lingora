@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lingora.com/about/</loc>
     <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lingora.com/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://lingora.com/en/about/" />
   </url>
   <url>
     <loc>https://lingora.com/en/about/</loc>
     <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://lingora.com/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://lingora.com/en/about/" />
   </url>
 </urlset>

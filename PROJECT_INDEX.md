@@ -107,3 +107,11 @@
 
 - `specs/CONFLICTS.md`: SG-01 مُحدَّث (الـ workbook استُلم وروجع؛ Architecture Plan ما زال غائباً).
 - أوصاف meta للصفحات الـ12 غير الـ About أُعيدت صياغتها (120–155 حرفاً) بصيغة موجهة للقارئ مع إبقاء حالة «قيد الاعتماد» للصفحات القانونية؛ About لم تُمس (معتمدة من المالك). S4 في تقرير SEO محلولة.
+
+### تم: بيانات منظّمة + CI
+
+- `src/lib/structured-data.ts`: JSON-LD (Organization, WebSite, WebPage/AboutPage, BreadcrumbList، وFAQPage إن وُجدت أسئلة) **للصفحات المفهرسة فقط** (حالياً About AR/EN)؛ المسودات noindex بلا JSON-LD عمداً. يُعرض في `ContentPage.tsx`.
+- `src/lib/metadata.ts`: Open Graph + Twitter لكل الصفحات؛ hreflang مُعمَّم لأي زوج AR/EN حين تصبح الصفحتان indexable (خريطة: `/`↔`/en/`، `/subscription/`↔`/en/plans/`، والباقي `/x/`↔`/en/x/`).
+- سكربتات البناء (prune/verify-static-html/verify-content-export/headers/verify-cloudflare-headers) تسمح بـ ld+json وتتحقق منه؛ `public/sitemap.xml` فيه xhtml:link alternates.
+- `.github/workflows/ci.yml`: يشغّل `npm run check:all` على push إلى main وكل PR (Node 22 + Playwright chromium). لم يُجرَّب فعلياً على GitHub.
+- عند فتح فهرسة صفحة جديدة: غيّر `indexable` + أضفها لـ `public/sitemap.xml` (مع alternates) — تتحقق منها verify-content-export.
