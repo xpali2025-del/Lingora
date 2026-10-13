@@ -115,3 +115,10 @@
 - سكربتات البناء (prune/verify-static-html/verify-content-export/headers/verify-cloudflare-headers) تسمح بـ ld+json وتتحقق منه؛ `public/sitemap.xml` فيه xhtml:link alternates.
 - `.github/workflows/ci.yml`: يشغّل `npm run check:all` على push إلى main وكل PR (Node 22 + Playwright chromium). لم يُجرَّب فعلياً على GitHub.
 - عند فتح فهرسة صفحة جديدة: غيّر `indexable` + أضفها لـ `public/sitemap.xml` (مع alternates) — تتحقق منها verify-content-export.
+
+### كلمات «رمادية» وبحث عالمي (بطلب المالك)
+
+- حقل جديد `keywordResearch.restrictedTerms` (schema + CMS + تصدير workbook): مصطلحات بحث (كود/كوبون/رخيص/بدون بيانات شخصية…) تُتتبَّع للبحث والإعلانات فقط. `seo:check` يفشل إن ظهرت في النص المرئي، لأنها ادعاءات غير موثقة حالياً.
+- أُضيفت مرادفات عادية (premium/بريميوم، family plan، annual، عائلي) لصفحات home وplans/subscription.
+- ادعاء المالك بوجود تصريح من Duolingo غير موثق في المستودع، فيبقى النص «بائع مستقل» (C3) حتى يوفّر المالك صيغة يمكن نشرها؛ التغيير يتم بتعديل نص disclaimer/about وتخفيف بوابة C3 عن علم المالك.
+- التوسع العالمي يحتاج قراراً: لغات جديدة (es/fr/tr/id/pt…) = locale جديد في الـ routing والمحتوى والـ hreflang، ولا يُنفَّذ قبل اعتماد اللغات والأسواق.

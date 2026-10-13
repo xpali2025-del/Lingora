@@ -28,7 +28,10 @@
       "Duolingo Super features",
       "activation link",
       "Super plan",
-      "how to redeem a Duolingo Super code"
+      "how to redeem a Duolingo Super code",
+      "Duolingo premium subscription",
+      "Duolingo Super family",
+      "Duolingo Super annual plan"
     ],
     "semanticTerms": [
       "redeem",
@@ -53,7 +56,14 @@
       "ctr": null,
       "position": null
     },
-    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data."
+    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data.",
+    "restrictedTerms": [
+      "discount code link",
+      "voucher-style code",
+      "Duolingo Super promo code",
+      "Duolingo Super without sharing personal details",
+      "Duolingo Super deal"
+    ]
   },
   "h1": "12-month Duolingo Super link: what to verify first",
   "intro": "The owner confirms that Lingora offers Duolingo Super in individual or Family options; the Family option is not discounted. Lingora does not offer Duolingo Max; it is mentioned only to distinguish the products. This draft does not confirm price, stock, live payment, or fulfilment.",

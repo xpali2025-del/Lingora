@@ -73,6 +73,13 @@ collections:
               required: false,
             }
           - {
+              label: Restricted terms (research only,
+              never in visible copy),
+              name: restrictedTerms,
+              widget: list,
+              required: false,
+            }
+          - {
               label: Monthly volume,
               name: volume,
               widget: number,

@@ -67,6 +67,21 @@ for (const record of records) {
       failures.push(
         `${page}: add at least 3 synonyms and 3 semantic terms to keywordResearch.`,
       );
+    const visibleText = [
+      record.title,
+      record.description,
+      record.h1,
+      record.intro,
+      ...record.sections.flatMap((s) => [s.heading, ...s.paragraphs]),
+      ...record.faqs.flatMap((f) => [f.question, f.answer]),
+    ]
+      .join(' ')
+      .toLowerCase();
+    for (const term of keywordResearch.restrictedTerms ?? [])
+      if (visibleText.includes(term.toLowerCase()))
+        failures.push(
+          `${page}: restricted term "${term}" must not appear in visible copy.`,
+        );
     const seen = new Set();
     for (const term of [keywordResearch.primaryKeyword, ...synonyms]) {
       const key = term.trim().toLowerCase();

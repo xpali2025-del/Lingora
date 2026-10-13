@@ -27,7 +27,11 @@
       "ديولينجو سوبر",
       "باقة دولينجو سوبر",
       "عضوية دولينجو سوبر",
-      "اشتراك دولينجو سوبر"
+      "اشتراك دولينجو سوبر",
+      "دولينجو بريميوم",
+      "دولينجو سوبر عائلي",
+      "تعلم الإنجليزية",
+      "تعلم لغة جديدة"
     ],
     "semanticTerms": [
       "دولينجو سوبر",
@@ -48,7 +52,14 @@
       "ctr": null,
       "position": null
     },
-    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data."
+    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data.",
+    "restrictedTerms": [
+      "كود خصم دولينجو",
+      "كوبون دولينجو سوبر",
+      "اشتراك دولينجو سوبر رخيص",
+      "شراء دولينجو سوبر بدون بيانات شخصية",
+      "شراء دولينجو سوبر بدون ايميل"
+    ]
   },
   "h1": "Lingora Duolingo Super: افهم العرض قبل المتابعة",
   "intro": "تعرض Lingora اشتراك Duolingo Super (دولينجو سوبر) بخيار فردي أو عائلي، ولا يشمل الخصم الخيار العائلي. لا تقدم Lingora Duolingo Max؛ يرد اسمه هنا للتفريق عن Super فقط. هذه نسخة مسودة ولا تؤكد تفعيل الطلب أو الدفع أو التسليم.",

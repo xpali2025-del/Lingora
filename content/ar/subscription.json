@@ -28,7 +28,9 @@
       "كود تفعيل دولينجو سوبر",
       "اشتراك سنوي دولينجو",
       "سعر دولينجو سوبر",
-      "مزايا دولينجو سوبر"
+      "مزايا دولينجو سوبر",
+      "دولينجو سوبر العائلي",
+      "اشتراك دولينجو بريميوم"
     ],
     "semanticTerms": [
       "تفعيل",
@@ -52,7 +54,13 @@
       "ctr": null,
       "position": null
     },
-    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data."
+    "source": "Qualitative intent mapping only; validate against actual keyword-tool and Search Console CSV data.",
+    "restrictedTerms": [
+      "طريقة تفعيل دولينجو سوبر برابط كود الخصم",
+      "كود دولينجو سوبر مجاني",
+      "عروض دولينجو سوبر",
+      "تخفيض دولينجو سوبر"
+    ]
   },
   "h1": "اشتراك Duolingo Super لمدة 12 شهرًا: ما الذي تتحقق منه؟",
   "intro": "بحسب تأكيد المالك، تقدم Lingora اشتراك Duolingo Super (دولينجو سوبر) بخيار فردي أو عائلي، ولا يشمل الخصم الخيار العائلي. لا تقدم Lingora Duolingo Max؛ يرد اسمه فقط للتفريق بين المنتجين. هذه المسودة لا تؤكد السعر أو المخزون أو تفعيل الدفع والتسليم.",
