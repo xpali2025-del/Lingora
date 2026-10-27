@@ -6,17 +6,14 @@ import {
   writeFileSync,
 } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
+import { isInteractivePath } from './interactive-routes.mjs';
 
 const scripts = new Set();
-const excluded = ['/admin/', '/order/', '/en/order/'];
 function walk(dir) {
   for (const name of readdirSync(dir)) {
     const path = join(dir, name);
     if (statSync(path).isDirectory()) walk(path);
-    else if (
-      path.endsWith('.html') &&
-      !excluded.some((route) => path.includes(route))
-    ) {
+    else if (path.endsWith('.html') && !isInteractivePath(path)) {
       const html = readFileSync(path, 'utf8');
       for (const match of html.matchAll(
         /<script\b[^>]*\bsrc=["']([^"']+)["'][^>]*><\/script>/gi,

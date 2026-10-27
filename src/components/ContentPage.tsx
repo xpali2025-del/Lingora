@@ -3,6 +3,7 @@ import { Fragment } from 'react';
 import { Container } from './Container';
 import type { ContentRecord } from '@/lib/content-schema';
 import { buildStructuredData } from '@/lib/structured-data';
+import { SubscriptionSteps } from './SubscriptionSteps';
 import productFacts from '../../content/product-facts.json';
 
 function BrandText({ text }: { text: string }) {
@@ -52,17 +53,18 @@ export function ContentPage({ content }: { content: ContentRecord }) {
   const isArabic = content.locale === 'ar';
   const isPlansPage = content.pageType === 'plans';
   const isContactPage = content.pageType === 'about';
+  const showSteps = isPlansPage || content.pageType === 'home';
   const ctaHref = isPlansPage
     ? isArabic
-      ? '/payment-methods/'
-      : '/en/payment-methods/'
+      ? '/order/'
+      : '/en/order/'
     : isArabic
       ? '/subscription/'
       : '/en/plans/';
   const ctaLabel = isPlansPage
     ? isArabic
-      ? 'راجع طرق الدفع'
-      : 'Review payment methods'
+      ? 'ابدأ الطلب'
+      : 'Start your order'
     : isArabic
       ? 'راجع معلومات الاشتراك'
       : 'Review plan information';
@@ -91,6 +93,8 @@ export function ContentPage({ content }: { content: ContentRecord }) {
         <p className="lead content-lead">
           <BrandText text={content.intro} />
         </p>
+
+        {showSteps && <SubscriptionSteps locale={content.locale} />}
 
         {!isContactPage && (
           <div className="draft-notice" role="status">

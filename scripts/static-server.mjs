@@ -1,10 +1,49 @@
 import { createServer } from 'node:http';
 import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs';
 import { extname, join, normalize, relative, resolve } from 'node:path';
+import { Readable } from 'node:stream';
+import { pathToFileURL } from 'node:url';
 
 const root = resolve('out');
 const port = Number(process.env.PORT ?? 4173);
 const host = process.env.HOST ?? '0.0.0.0';
+// Local preview only: without DATABASE_URL the API uses an in-memory Postgres (data resets on restart).
+process.env.DATABASE_URL ||= 'pglite:memory';
+const apiRoot = resolve('api');
+
+async function serveApi(request, response, pathname) {
+  const name = pathname.slice('/api/'.length).replace(/\/$/u, '');
+  const file = join(apiRoot, `${name}.mjs`);
+  if (!/^[a-z-]+$/u.test(name) || !existsSync(file)) {
+    response
+      .writeHead(404, { 'content-type': 'application/json' })
+      .end('{"error":"not_found"}');
+    return;
+  }
+  const routeModule = await import(pathToFileURL(file).href);
+  const handler = routeModule[request.method ?? 'GET'];
+  if (!handler) {
+    response.writeHead(405).end();
+    return;
+  }
+  const chunks = [];
+  for await (const chunk of request) chunks.push(chunk);
+  const body = Buffer.concat(chunks);
+  const webResponse = await handler(
+    new Request(`http://${request.headers.host ?? 'localhost'}${request.url}`, {
+      method: request.method,
+      headers: request.headers,
+      body: body.length ? body : undefined,
+    }),
+  );
+  response.writeHead(
+    webResponse.status,
+    Object.fromEntries(webResponse.headers),
+  );
+  if (webResponse.body) Readable.fromWeb(webResponse.body).pipe(response);
+  else response.end();
+}
+
 const types = {
   '.css': 'text/css; charset=utf-8',
   '.html': 'text/html; charset=utf-8',
@@ -46,6 +85,14 @@ const server = createServer((request, response) => {
     pathname = decodeURIComponent(url.pathname);
   } catch {
     response.writeHead(400).end('Bad request');
+    return;
+  }
+  if (pathname.startsWith('/api/')) {
+    serveApi(request, response, pathname).catch((error) => {
+      console.error(error);
+      if (!response.headersSent) response.writeHead(500);
+      response.end();
+    });
     return;
   }
   const normalized = normalize(pathname).replace(/^([/\\]*\.\.[/\\])+/, '/');

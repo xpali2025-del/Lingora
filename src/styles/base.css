@@ -563,3 +563,554 @@ h1 {
   border-block-start: 1px solid var(--color-border);
   padding-block-start: 2rem;
 }
+
+/* Subscription steps, order flow, tracking and dashboard */
+.primary-nav .nav-cta {
+  color: var(--color-background);
+  background: var(--color-accent);
+}
+
+.primary-nav .nav-cta:hover {
+  background: var(--color-foreground);
+}
+
+.primary-button,
+.secondary-button {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-accent);
+  border-radius: 0.65rem;
+  padding-inline: 1.1rem;
+  font: inherit;
+  font-weight: 650;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary-button {
+  color: var(--color-background);
+  background: var(--color-accent);
+}
+
+.secondary-button {
+  color: var(--color-accent);
+  background: transparent;
+}
+
+.primary-button:disabled,
+.secondary-button:disabled {
+  cursor: progress;
+  opacity: 0.65;
+}
+
+.text-button {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  border: 0;
+  padding-inline: 0.25rem;
+  color: var(--color-foreground);
+  background: none;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* Headings focused by script to announce a new step should not show a ring. */
+[tabindex='-1']:focus {
+  outline: none;
+}
+
+.subscription-steps {
+  max-width: 72ch;
+  margin-block: 1.8rem 2rem;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  background: #fff;
+}
+
+.subscription-steps h2 {
+  margin-block: 0 1rem;
+  font-size: clamp(1.2rem, 2.5vw, 1.55rem);
+}
+
+.subscription-steps ol {
+  display: grid;
+  gap: 0.9rem;
+  margin: 0 0 1.2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.subscription-steps li {
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+}
+
+.subscription-steps p {
+  margin-block: 0.15rem 0;
+  color: var(--color-muted);
+  font-size: 0.92rem;
+}
+
+.order-step-number {
+  display: inline-grid;
+  flex: 0 0 auto;
+  width: 1.9rem;
+  height: 1.9rem;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--color-background);
+  background: var(--color-accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+}
+
+.order-page h1 {
+  margin-block-end: 0.75rem;
+}
+
+.order-flow {
+  display: grid;
+  max-width: 44rem;
+  gap: 1.25rem;
+  margin-block-start: 1.5rem;
+}
+
+.order-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.order-steps li {
+  display: grid;
+  justify-items: center;
+  gap: 0.35rem;
+  color: var(--color-muted);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.order-steps li .order-step-number {
+  color: var(--color-muted);
+  background: var(--color-border);
+}
+
+.order-steps li[aria-current='step'] {
+  color: var(--color-foreground);
+  font-weight: 700;
+}
+
+.order-steps li[aria-current='step'] .order-step-number,
+.order-steps li.is-done .order-step-number {
+  color: var(--color-background);
+  background: var(--color-accent);
+}
+
+.order-panel {
+  display: grid;
+  gap: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  background: #fff;
+}
+
+.order-panel h2 {
+  margin: 0;
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  line-height: 1.4;
+}
+
+.order-panel h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.order-muted {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.92rem;
+}
+
+.order-success {
+  margin: 0;
+  color: #2f5d3a;
+  font-weight: 700;
+}
+
+.form-alert {
+  margin: 0;
+  border-inline-start: 3px solid #b4442f;
+  border-radius: 0.25rem 0.65rem 0.65rem 0.25rem;
+  padding: 0.75rem 0.9rem;
+  color: #7a2c1e;
+  background: #fff2ee;
+}
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.9rem;
+}
+
+.plan-card {
+  display: grid;
+  align-content: start;
+  gap: 0.6rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.9rem;
+  padding: 1rem;
+}
+
+.plan-card.is-primary {
+  border-color: var(--color-accent);
+}
+
+.plan-card p {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.92rem;
+}
+
+.plan-card .plan-price {
+  color: var(--color-foreground);
+  font-size: 1.35rem;
+  font-weight: 750;
+}
+
+.order-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.form-field label {
+  font-weight: 650;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  min-height: 2.75rem;
+  border: 1px solid #b9bcb3;
+  border-radius: 0.6rem;
+  padding: 0.55rem 0.75rem;
+  color: var(--color-foreground);
+  background: #fff;
+  font: inherit;
+}
+
+.form-field.has-error input,
+.form-field.has-error textarea,
+.form-field select[aria-invalid='true'] {
+  border-color: #b4442f;
+}
+
+.form-hint {
+  color: var(--color-muted);
+}
+
+.form-error {
+  color: #9a3420;
+  font-weight: 600;
+}
+
+.order-summary {
+  display: grid;
+  gap: 0.5rem;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  background: color-mix(in srgb, var(--color-accent) 6%, white);
+}
+
+.order-number,
+.copy-row,
+.transfer-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.75rem;
+}
+
+.order-number bdi,
+.copy-value {
+  font-family: 'Inter Variable', ui-monospace, monospace;
+  font-weight: 750;
+  overflow-wrap: anywhere;
+}
+
+.order-number bdi {
+  font-size: 1.25rem;
+}
+
+.copy-button {
+  display: inline-flex;
+  min-width: 4.5rem;
+  min-height: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  padding-inline: 0.75rem;
+  color: var(--color-foreground);
+  background: var(--color-background);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.payment-method-panel {
+  display: grid;
+  gap: 0.85rem;
+  border-block-start: 1px solid var(--color-border);
+  padding-block-start: 1rem;
+}
+
+.payment-method-panel.is-quiet {
+  justify-items: start;
+}
+
+.payment-instructions {
+  display: grid;
+  gap: 0.4rem;
+  margin: 0;
+  padding-inline-start: 1.2rem;
+  color: var(--color-muted);
+  font-size: 0.92rem;
+}
+
+.copy-row {
+  border-radius: 0.6rem;
+  padding: 0.6rem 0.75rem;
+  background: var(--color-background);
+}
+
+.copy-row > span:first-child {
+  flex-basis: 100%;
+  color: var(--color-muted);
+  font-size: 0.82rem;
+}
+
+.transfer-list {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.transfer-list li {
+  border: 1px solid var(--color-border);
+  border-radius: 0.6rem;
+  padding: 0.55rem 0.75rem;
+}
+
+.transfer-list li > span:first-child {
+  flex: 1 1 12rem;
+  font-size: 0.9rem;
+}
+
+.tracker-form {
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  background: #fff;
+}
+
+.status-badge {
+  display: inline-flex;
+  justify-self: start;
+  border-radius: 999px;
+  padding: 0.25rem 0.8rem;
+  color: var(--color-foreground);
+  background: var(--color-border);
+  font-size: 0.9rem;
+}
+
+h2.status-badge {
+  font-size: 1.15rem;
+}
+
+.status-badge.status-fulfilled {
+  color: #fff;
+  background: #2f5d3a;
+}
+
+.status-badge.status-paid,
+.status-badge.status-payment_review {
+  color: #5a4210;
+  background: #f6e7c4;
+}
+
+.status-badge.status-cancelled {
+  color: #7a2c1e;
+  background: #fbe2db;
+}
+
+.code-box {
+  display: grid;
+  gap: 0.75rem;
+  border: 2px solid #2f5d3a;
+  border-radius: 0.9rem;
+  padding: 1rem;
+}
+
+.code-value {
+  display: block;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  background: var(--color-background);
+  font-family: 'Inter Variable', ui-monospace, monospace;
+  font-size: 1.05rem;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.order-details summary {
+  min-height: 2.75rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.order-details dl {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0.5rem 0 0;
+}
+
+.order-details dl div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  border-block-end: 1px solid var(--color-border);
+  padding-block: 0.4rem;
+}
+
+.order-details dt {
+  color: var(--color-muted);
+}
+
+.order-details dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.admin-login {
+  max-width: 28rem;
+}
+
+.admin-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-block-end: 1rem;
+}
+
+.admin-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.admin-tabs button {
+  min-height: 2.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding-inline: 0.9rem;
+  color: var(--color-foreground);
+  background: #fff;
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.admin-tabs button.is-active {
+  color: var(--color-background);
+  background: var(--color-accent);
+}
+
+.admin-filter {
+  max-width: 20rem;
+  margin-block-end: 1rem;
+}
+
+.admin-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.admin-card {
+  display: grid;
+  gap: 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.9rem;
+  padding: 1rem;
+  background: #fff;
+}
+
+.admin-card p {
+  margin: 0;
+}
+
+.admin-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-weight: 700;
+}
+
+.admin-link {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .order-steps li {
+    font-size: 0.72rem;
+  }
+
+  .primary-button,
+  .secondary-button {
+    width: 100%;
+  }
+}

@@ -1,16 +1,13 @@
 import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { isInteractivePath } from './interactive-routes.mjs';
 
-const excluded = ['/admin/', '/order/', '/en/order/'];
 const removed = [];
 function walk(dir) {
   for (const name of readdirSync(dir)) {
     const path = join(dir, name);
     if (statSync(path).isDirectory()) walk(path);
-    else if (
-      path.endsWith('.html') &&
-      !excluded.some((route) => path.includes(route))
-    ) {
+    else if (path.endsWith('.html') && !isInteractivePath(path)) {
       const html = readFileSync(path, 'utf8');
       const staticHtml = html
         .replace(

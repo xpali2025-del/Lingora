@@ -32,6 +32,15 @@ export function SiteHeader({ locale }: { locale: Locale }) {
             className="primary-nav"
             aria-label={locale === 'ar' ? 'التنقل الرئيسي' : 'Main navigation'}
           >
+            <a
+              className="nav-cta"
+              href={locale === 'ar' ? '/order/' : '/en/order/'}
+            >
+              {locale === 'ar' ? 'اشترك الآن' : 'Subscribe'}
+            </a>
+            <a href={locale === 'ar' ? '/track/' : '/en/track/'}>
+              {locale === 'ar' ? 'تتبّع الطلب' : 'Track order'}
+            </a>
             <a href={locale === 'ar' ? '/about/' : '/en/about/'}>
               {locale === 'ar' ? 'من نحن' : 'About'}
             </a>
