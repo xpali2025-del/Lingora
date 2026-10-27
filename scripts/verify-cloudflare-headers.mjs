@@ -41,8 +41,9 @@ let inlineScripts = 0;
 for (const path of files) {
   const html = readFileSync(path, 'utf8');
   for (const match of html.matchAll(
-    /<script\b(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/gi,
+    /<script\b(?![^>]*\bsrc=)(?![^>]*\btype=["']application\/ld\+json["'])[^>]*>([\s\S]*?)<\/script>/gi,
   )) {
+    // JSON-LD data blocks are never executed, so CSP does not need their hashes.
     if (!match[1].trim()) continue;
     inlineScripts += 1;
     const hash = `'sha256-${createHash('sha256').update(match[1]).digest('base64')}'`;

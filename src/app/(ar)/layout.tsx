@@ -6,9 +6,11 @@ import '@/styles/tokens-ar.css';
 import { SiteFooter } from '@/components/SiteFooter';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SkipLink } from '@/components/SkipLink';
+import { siteIcons } from '@/lib/metadata';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://lingora.com'),
+  icons: siteIcons,
   title: 'معاينة أساس لينجورا ثنائية اللغة للموقع | Lingora',
   description:
     'هذه معاينة تقنية لأساس موقع لينجورا، مخصصة لاختبار اللغة واتجاه القراءة قبل إعداد المحتوى المعتمد ومراجعته.',

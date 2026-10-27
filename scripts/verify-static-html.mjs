@@ -1,5 +1,6 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
+import { isInteractivePath } from './interactive-routes.mjs';
 
 const failures = [];
 const htmlFiles = [];
@@ -12,17 +13,17 @@ for (const required of ['out/index.html', 'out/en/index.html']) {
 }
 function walk(dir) {
   for (const name of readdirSync(dir)) {
-    if (name === 'admin') continue;
     const path = join(dir, name);
-    if (statSync(path).isDirectory()) walk(path);
-    else if (path.endsWith('.html')) htmlFiles.push(path);
+    if (statSync(path).isDirectory()) {
+      if (!isInteractivePath(`${path}/`)) walk(path);
+    } else if (path.endsWith('.html')) htmlFiles.push(path);
   }
 }
 walk('out');
 for (const path of htmlFiles) {
   const html = readFileSync(path, 'utf8');
   if (
-    /<script\b|<link\b(?=[^>]*\bas=["']script["'])|<link\b(?=[^>]*\brel=["']modulepreload["'])/i.test(
+    /<script\b(?![^>]*\btype=["']application\/ld\+json["'])|<link\b(?=[^>]*\bas=["']script["'])|<link\b(?=[^>]*\brel=["']modulepreload["'])/i.test(
       html,
     )
   ) {

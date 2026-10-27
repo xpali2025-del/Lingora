@@ -19,4 +19,13 @@ Status: **Reviewed at GATE-0; source gap SG-01 remains open.** Source of current
 
 ## Newly discovered conflicts
 
-None identified from the prompt alone. This is not confirmation that the two absent source files contain no additional conflicts.
+Owner decisions of 2026-10-27 (order flow request) that override prompt defaults. Each is recorded here rather than silently applied.
+
+| ID  | Conflict                                                                                                                               | Source                            | Resolution                                                                                                                                                                                                       |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| C5  | P1 says Lingora stores no name, email or phone; the owner requires name, email and WhatsApp on every order and payment-method request. | Constitution P1 vs owner request  | Owner decision applies: store only these three fields plus order data; no passwords, Duolingo credentials or card data (P2 unchanged). Privacy page stays `LEGAL-REVIEW-REQUIRED`; retention (OD-07) still open. |
+| C6  | A6 names Cloudflare D1; the owner chose PostgreSQL and the live preview runs on Vercel.                                                | Constitution A6 vs owner request  | Static export unchanged; the API runs as Vercel Functions (`api/*.mjs`) on any PostgreSQL via `DATABASE_URL`. Content pages still ship no JavaScript.                                                            |
+| C7  | OD-02 default was a manual “Lite MVP”; the owner requires automatic payment verification and automatic code delivery from stock.       | OD-02 default vs owner request    | USDT on BNB Smart Chain is verified on-chain against a unique per-order amount; codes are allocated atomically from encrypted stock. Bank and wallet transfers remain owner-confirmed.                           |
+| C8  | The Arabic track charges SAR 50, but USDT has no SAR price.                                                                            | C1 price table vs crypto checkout | USDT amount for the Arabic track is SAR 50 at the fixed 3.75 SAR/USD peg, rounded up to 13.34 USDT; English track is 15 USDT. Both live only in `src/server/prices.mjs`.                                         |
+
+OD-01 (resale rights) and OD-11 (complete BEP20 address) still block a public launch; crypto checkout stays disabled until `LINGORA_BEP20_ADDRESS` holds a complete, verified address.

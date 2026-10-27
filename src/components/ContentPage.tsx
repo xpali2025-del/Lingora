@@ -2,6 +2,8 @@ import Image from 'next/image';
 import { Fragment } from 'react';
 import { Container } from './Container';
 import type { ContentRecord } from '@/lib/content-schema';
+import { buildStructuredData } from '@/lib/structured-data';
+import { SubscriptionSteps } from './SubscriptionSteps';
 import productFacts from '../../content/product-facts.json';
 
 function BrandText({ text }: { text: string }) {
@@ -51,25 +53,35 @@ export function ContentPage({ content }: { content: ContentRecord }) {
   const isArabic = content.locale === 'ar';
   const isPlansPage = content.pageType === 'plans';
   const isContactPage = content.pageType === 'about';
+  const showSteps = isPlansPage || content.pageType === 'home';
   const ctaHref = isPlansPage
     ? isArabic
-      ? '/payment-methods/'
-      : '/en/payment-methods/'
+      ? '/order/'
+      : '/en/order/'
     : isArabic
       ? '/subscription/'
       : '/en/plans/';
   const ctaLabel = isPlansPage
     ? isArabic
-      ? 'راجع طرق الدفع'
-      : 'Review payment methods'
+      ? 'ابدأ الطلب'
+      : 'Start your order'
     : isArabic
       ? 'راجع معلومات الاشتراك'
       : 'Review plan information';
   const showArabicSubscriptionScreenshot =
     content.locale === 'ar' && content.route === '/subscription/';
+  const structuredData = buildStructuredData(content);
 
   return (
     <main id="main-content" className="page-main content-page">
+      {structuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData).replace(/</g, '\\u003c'),
+          }}
+        />
+      )}
       <Container>
         <div className="content-kicker">
           <span className="content-kicker-dot" />
@@ -81,6 +93,8 @@ export function ContentPage({ content }: { content: ContentRecord }) {
         <p className="lead content-lead">
           <BrandText text={content.intro} />
         </p>
+
+        {showSteps && <SubscriptionSteps locale={content.locale} />}
 
         {!isContactPage && (
           <div className="draft-notice" role="status">
@@ -233,7 +247,7 @@ export function ContentPage({ content }: { content: ContentRecord }) {
             </div>
             <a href={ctaHref}>
               {ctaLabel}
-              <span aria-hidden="true">←</span>
+              <span aria-hidden="true">→</span>
             </a>
           </div>
         )}
