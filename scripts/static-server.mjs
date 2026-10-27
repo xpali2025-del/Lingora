@@ -56,9 +56,19 @@ const server = createServer((request, response) => {
     return;
   }
   if (!existsSync(file)) {
-    response
-      .writeHead(404, { 'content-type': 'text/plain; charset=utf-8' })
-      .end('Not found');
+    // Mirror Cloudflare Pages, which serves the exported 404.html for unmatched paths.
+    const notFoundPage = join(root, '404.html');
+    if (existsSync(notFoundPage)) {
+      response.writeHead(404, {
+        ...securityHeaders(pathname),
+        'content-type': 'text/html; charset=utf-8',
+      });
+      createReadStream(notFoundPage).pipe(response);
+    } else {
+      response
+        .writeHead(404, { 'content-type': 'text/plain; charset=utf-8' })
+        .end('Not found');
+    }
     return;
   }
   if (statSync(file).isDirectory()) {

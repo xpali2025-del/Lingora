@@ -1,0 +1,6 @@
+node_modules/
+.next/
+out/
+.size-budget/
+test-results/
+playwright-report/

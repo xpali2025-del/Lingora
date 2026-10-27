@@ -157,6 +157,21 @@ h1 {
   font-size: 0.9rem;
 }
 
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.1rem;
+  margin-block-end: 0.75rem;
+}
+
+.footer-nav a {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  color: var(--color-foreground);
+  font-weight: 600;
+}
+
 .footer-note {
   margin-block: 0.25rem 0.75rem;
 }
@@ -502,12 +517,49 @@ h1 {
     grid-template-columns: minmax(0, 1fr);
   }
 
+  .header-row {
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    padding-block: 0.5rem;
+  }
+
+  .market-switcher {
+    flex-wrap: nowrap;
+  }
+
+  .primary-nav {
+    display: flex;
+    flex-basis: 100%;
+    order: 3;
+    gap: 0.25rem;
+    margin-inline-start: -0.45rem;
+  }
+
   .primary-nav a {
+    min-height: 2.25rem;
+    align-items: center;
     padding-inline: 0.45rem;
     font-size: 0.78rem;
   }
+}
 
-  .header-row {
-    gap: 0.45rem;
-  }
+.not-found-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin-block: 1.5rem 0;
+}
+
+.not-found-links a:not(.button-link) {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  font-weight: 650;
+}
+
+.not-found-alt {
+  margin-block-start: 3rem;
+  border-block-start: 1px solid var(--color-border);
+  padding-block-start: 2rem;
 }

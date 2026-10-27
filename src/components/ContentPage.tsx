@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Fragment } from 'react';
 import { Container } from './Container';
 import type { ContentRecord } from '@/lib/content-schema';
+import { buildStructuredData } from '@/lib/structured-data';
 import productFacts from '../../content/product-facts.json';
 
 function BrandText({ text }: { text: string }) {
@@ -67,9 +68,18 @@ export function ContentPage({ content }: { content: ContentRecord }) {
       : 'Review plan information';
   const showArabicSubscriptionScreenshot =
     content.locale === 'ar' && content.route === '/subscription/';
+  const structuredData = buildStructuredData(content);
 
   return (
     <main id="main-content" className="page-main content-page">
+      {structuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData).replace(/</g, '\\u003c'),
+          }}
+        />
+      )}
       <Container>
         <div className="content-kicker">
           <span className="content-kicker-dot" />
@@ -233,7 +243,7 @@ export function ContentPage({ content }: { content: ContentRecord }) {
             </div>
             <a href={ctaHref}>
               {ctaLabel}
-              <span aria-hidden="true">←</span>
+              <span aria-hidden="true">→</span>
             </a>
           </div>
         )}

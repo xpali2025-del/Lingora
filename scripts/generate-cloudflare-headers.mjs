@@ -17,7 +17,7 @@ const hashes = new Set();
 for (const path of htmlFiles) {
   const html = readFileSync(path, 'utf8');
   for (const match of html.matchAll(
-    /<script\b(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/gi,
+    /<script\b(?![^>]*\bsrc=)(?![^>]*\btype=["']application\/ld\+json["'])[^>]*>([\s\S]*?)<\/script>/gi,
   )) {
     const script = match[1];
     if (script.trim())

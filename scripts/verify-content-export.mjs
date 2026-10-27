@@ -116,10 +116,60 @@ for (const record of publicDrafts) {
         );
     }
   }
-  if (/<script\b|<link\b(?=[^>]*\bas=["']script["'])/i.test(html))
+  if (
+    /<script\b(?![^>]*\btype="application\/ld\+json")|<link\b(?=[^>]*\bas=["']script["'])/i.test(
+      html,
+    )
+  )
     failures.push(
       `${label}: unnecessary client script found in static draft page.`,
     );
+  const jsonLdBlocks = [
+    ...html.matchAll(
+      /<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi,
+    ),
+  ].map((match) => match[1]);
+  const expectedBlocks =
+    record.pageType === 'about' && record.indexable ? 1 : 0;
+  if (jsonLdBlocks.length !== expectedBlocks)
+    failures.push(
+      `${label}: expected ${expectedBlocks} JSON-LD block(s), found ${jsonLdBlocks.length}.`,
+    );
+  for (const block of jsonLdBlocks) {
+    let data;
+    try {
+      data = JSON.parse(block);
+    } catch {
+      failures.push(`${label}: JSON-LD is not valid JSON.`);
+      continue;
+    }
+    const serialized = JSON.stringify(data);
+    if (data['@context'] !== 'https://schema.org')
+      failures.push(`${label}: JSON-LD must use the schema.org context.`);
+    if (/"@type":"(Review|AggregateRating|Offer|Product)"/u.test(serialized))
+      failures.push(
+        `${label}: JSON-LD contains review, rating, offer, or product markup without approved visible evidence.`,
+      );
+    const visibleHtml = html.replace(
+      /<script\b[^>]*>[\s\S]*?<\/script>|<head>[\s\S]*?<\/head>/gi,
+      '',
+    );
+    for (const value of serialized.match(
+      /\+\d{6,}|[\w.-]+@[\w.-]+\.[a-z]{2,}/giu,
+    ) ?? []) {
+      if (!visibleHtml.includes(value))
+        failures.push(
+          `${label}: JSON-LD contact value ${value} is not visible on the page.`,
+        );
+    }
+    const page = data['@graph']?.find((node) => node['@type'] === 'AboutPage');
+    if (page?.url !== `https://lingora.com${record.route}`)
+      failures.push(
+        `${label}: JSON-LD AboutPage url must match the canonical.`,
+      );
+    if (page?.inLanguage !== record.locale)
+      failures.push(`${label}: JSON-LD inLanguage must match the page locale.`);
+  }
 }
 for (const record of researchOnly) {
   const route = record.route.endsWith('/') ? record.route : `${record.route}/`;

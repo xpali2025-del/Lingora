@@ -13,7 +13,10 @@ function walk(dir) {
     ) {
       const html = readFileSync(path, 'utf8');
       const staticHtml = html
-        .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '')
+        .replace(
+          /<script\b(?![^>]*\btype=["']application\/ld\+json["'])[^>]*>[\s\S]*?<\/script>/gi,
+          '',
+        )
         .replace(/<link\b(?=[^>]*\bas=["']script["'])[^>]*>/gi, '')
         .replace(/<link\b(?=[^>]*\brel=["']modulepreload["'])[^>]*>/gi, '');
       if (staticHtml !== html) {

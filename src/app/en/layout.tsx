@@ -6,9 +6,11 @@ import '@/styles/tokens-en.css';
 import { SiteFooter } from '@/components/SiteFooter';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SkipLink } from '@/components/SkipLink';
+import { siteIcons } from '@/lib/metadata';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://lingora.com'),
+  icons: siteIcons,
   title: 'Bilingual foundation preview for the Lingora website',
   description:
     'A technical preview of the Lingora website foundation for checking language routes and reading direction before approved content is prepared and reviewed.',
